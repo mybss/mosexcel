@@ -1,0 +1,520 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MOS Excel 2016</title>
+    <style>
+        h1 {
+            font-size: 20px;
+            color: #000;
+        }
+
+        blockquote {
+            border-left: 4px solid #DDD;
+            padding: 0 15px;
+            color: #777;
+        }
+
+        blockquote>:first-child {
+            margin-top: 0px;
+        }
+
+        blockquote>:last-child {
+            margin-bottom: 0px;
+        }
+
+        table {
+            border-collapse: collapse;
+            border: 1px solid black;
+            width: 90%;
+            margin:0 auto;
+        }
+
+        table th:first-child {
+            width: 15%;
+            text-align:center;
+        }
+
+        table th {
+            font-weight: bold;
+            background: #ccc;
+        }
+
+        table th,
+        table td {
+            border: 1px solid #ccc;
+            padding: 6px 13px;
+            text-align:justify;
+            line-height:1.5em;
+        }
+
+        table tr {
+            border-top: 1px solid #ccc;
+            background-color: #fff;
+            height:80px;
+        }
+
+        table tr:nth-child(2n) {
+            background-color: #f8f8f8;
+        }
+        table tr > td:first-child {            
+            text-align:center;
+        }
+        table tr:first-child{
+            height:50px;
+        }
+        #mu{
+            width:407px;
+            position:fixed;
+            top:10px;
+            right:200px;
+            z-index: 20;
+            background-color: #fff;
+        }
+        #mu ul{
+            border-top:1px solid black;            
+            padding:0px;
+            margin:0px;
+        }
+        #mu ul li{
+            list-style:none;
+            width:50px;
+            float:left;
+            text-align: center;
+            border-left:1px solid black;
+            border-bottom: 1px solid black;
+        }
+        #mu ul li:nth-child(8){
+            border-right:1px solid black;
+        }
+        #mu a{
+            text-decoration: none;
+        }
+        #mu a:hover{
+            background-color:yellow;
+            color:red;
+        }
+        #mu a:active,#mu a,#mu a:visited{
+            color:rgb(19, 111, 202);
+        }
+    </style>
+</head>
+
+<body>
+    <div id="mu">
+        <ul>
+            <li><a href="#mw1">練習1</a></li>
+            <li><a href="#mw2">練習2</a></li>
+            <li><a href="#mw3">練習3</a></li>
+            <li><a href="#mw4">練習4</a></li>
+            <li><a href="#mw5">練習5</a></li>
+            <li><a href="#mw6">練習6</a></li>
+            <li><a href="#mw7">練習7</a></li>
+            <li><a href="#mw8">練習8</a></li>
+        </ul>
+    </div>
+    <h1 id="mw1">練習 1</h1>
+    <blockquote>
+        <p>平均公式<br>
+            AVERAGE(範圍)</p>
+    </blockquote>
+    <table>
+        <thead>
+            <tr>
+                <th align="center">動作</th>
+                <th>內容</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td align="center">工作1</td>
+                <td>在「年度各季收入」工作表的「D12」儲 存格，新增一個公式透過對合計列進行結構化參照的方式，計算所有分區的收入之合計平均值</td>
+            </tr>
+            <tr>
+                <td align="center">工作2</td>
+                <td>設定 Excel 僅啟用經過數位簽章的巨集，並在功能區中顯示開發人員索引標籤</td>
+            </tr>
+            <tr>
+                <td align="center">工作3</td>
+                <td>在「購票統計」工作表中計算合計費用(算法1)依 D4:D6 價格進行計算，合計費用(算法2)依 B13:D13 價格進行計算。算法1請使用全部絕對方式，算法2請使用絕對列方式</td>
+            </tr>
+            <tr>
+                <td align="center">工作4</td>
+                <td>在「購票統計」工作表中建立一個受密碼保護的範圍，儲存格範圍為「J4:K18」，範圍名稱命名為「總費用」，使用「pwd123」做為範圍保護密碼。保護工作表的密碼為「pwd456」</td>
+            </tr>
+            <tr>
+                <td align="center">工作5</td>
+                <td>變更 Excel 活頁簿的計算選項設定，當資料有所異動時公式並不會自動重新計算，除非進行手動重新計算活頁簿或當儲存活頁簿時才重新計算</td>
+            </tr>
+            <tr>
+                <td align="center">工作6</td>
+                <td>保護活頁簿讓使用者無法新增、刪除或編輯工作表，除非輸入了正確的密碼「my12345」</td>
+            </tr>
+            <tr>
+                <td align="center">工作7</td>
+                <td>修改活頁簿選項，使得在使用瀏覽器開啟活頁簿時，僅能檢視「地區交易」工作表</td>
+            </tr>
+        </tbody>
+    </table>
+    <h1 id="mw2">練習 2</h1>
+    <table>
+        <thead>
+            <tr>
+                <th align="center">動作</th>
+                <th>內容</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td align="center">工作1</td>
+                <td>在「訂單」工作表中，格式化 B 欄為中文 ( 台灣 ) 日期格式，並設定行事曆類型為中華民國曆，採用 101 年 3 月 14 日的格式</td>
+            </tr>
+            <tr>
+                <td align="center">工作2</td>
+                <td>在「訂單」工作表上，格式化 G 欄與 H 欄，貨幣格式為 NT$ 符號，並顯示 1 位小數。格式設定應套用在既有的與新增的資料列上</td>
+            </tr>
+            <tr>
+                <td align="center">工作3</td>
+                <td>在「報名統計」工作表的儲存格範圍 B3:B18 填滿週次 ( 第 2 週到第 16 週 )，不要變更儲存格格式</td>
+            </tr>
+            <tr>
+                <td align="center">工作4</td>
+                <td>在「報名統計」工作表的儲存格範圍 C3:C18 新增資料驗證規則，設定當使用者輸入了小於 1 或大於 40
+                    或帶有小數點的數字時，便顯示「停止」的錯誤訊息，而錯誤訊息的標題為「容量有限」，訊息內容為「不得超過 40 人」</td>
+            </tr>
+            <tr>
+                <td align="center">工作5</td>
+                <td>在「地區交易」工作表的 E 欄套用設定格式化的條件，使得當數值大於或等於 150,000 時，顯示綠旗幟圖示；當數值大於或等於 100,000 且低於 150,000 時，顯示黃旗幟圖示；當數值低於
+                    100,000 時，則顯示紅旗幟圖示。格式設定應套用在 E 欄裡新增或既有的資料列上</td>
+            </tr>
+            <tr>
+                <td align="center">工作6</td>
+                <td>在「地區交易」工作表上，對儲存格範圍 D3:D24 套用設定格式化的條件規則，使得紅利金額超過 $2000 的交易編號可以填滿以下的 RGB 色彩「254 , 216 , 206」</td>
+            </tr>
+            <tr>
+                <td align="center">工作7</td>
+                <td>在「訂單」工作表的 G 欄套用設定格式化的條件，找出銷售額最高的前 3 個並套用淺紅色填滿色彩，另外將比平均值低的銷售額填入黃色填滿深黃色文字色彩</td>
+            </tr>
+        </tbody>
+    </table>
+    <h1 id="mw3">練習 3</h1>
+    <table>
+        <thead>
+            <tr>
+                <th align="center">動作</th>
+                <th>內容</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td align="center">工作1</td>
+                <td>在「參觀統計」工作表上，針對整個資料列套用格式化條件，規則是「本國參觀人數」大於「總人數」的 40% 時，套用粗體字型樣式並變更字型顏色為 RGB 「255 , 20 , 20」</td>
+            </tr>
+            <tr>
+                <td align="center">工作2</td>
+                <td>在「茶品」工作表上，修改套用在儲存格範圍 C4:C11 的設定格式化條件規則，使用內建規則來設定所有數值高於整欄的平均值時顯示紅色字型色彩、粗體字格式</td>
+            </tr>
+            <tr>
+                <td align="center">工作3</td>
+                <td>在「茶品」工作表上，若所有縣市銷售量之平均值小於 150，則將儲存格範圍 B4:B11 填滿「紅色」圖樣色彩以及「50% 灰色」的圖樣樣式</td>
+            </tr>
+            <tr>
+                <td align="center">工作4</td>
+                <td>在「店面業績」工作表上清除所有設定格式化的條件</td>
+            </tr>
+            <tr>
+                <td align="center">工作5</td>
+                <td>在「8 年級」工作表上，建立新的自訂色彩，調整輔色 2 選項的色彩為 RGB「144 , 60 , 195」，並將自訂色彩命名為「紫色風暴」</td>
+            </tr>
+            <tr>
+                <td align="center">工作6</td>
+                <td>修改「MyCustom」樣式加上紫色雙線底線框與粗體字型</td>
+            </tr>
+            <tr>
+                <td align="center">工作7</td>
+                <td>在「8 年級」工作表上，變更佈景主題色彩為紅紫色並儲存佈景主題至預設的資料夾路徑，且檔案名稱命名為「亮麗紫紅」</td>
+            </tr>
+            <tr>
+                <td align="center">工作8</td>
+                <td>在「8 年級」工作表上插入一個可以連結至儲存格 M2 的下拉式方塊控制項，此控制項應顯示來自「老師」工作表 B 欄裡的六個姓名</td>
+            </tr>
+        </tbody>
+    </table>
+    <h1 id="mw4">練習 4</h1>
+    <blockquote>
+        <p>公式<br>
+            且　AND(計算1,計算2....) <br></p>
+        <p>或　OR(計算1,計算2....) <br></p>
+        <p>條件判斷　IF(條件,成立時顯示結果,不成立時顯示結果) <br></p>
+        <blockquote>
+            <p>條件　&gt;(大於),&lt;(小於),=(等於),&gt;=(大於等於),&lt;=(小於等於),&lt;&gt;(不等於) <br></p>
+        </blockquote>
+        <p>條件式計數　　COUNTIF(範圍,條件) <br></p>
+        <p>多條件式計數　COUNTIFS(範圍1,條件1,範圍2,條件2....) <br></p>
+        <p>條件式平均　　AVERAGEIF(條件範圍,條件,平均範圍) <br></p>
+        <p>多條件式平均　AVERAGEIFS(平均範圍,條件1範圍,條件1,條件2範圍,條件2....) <br></p>
+        <p>條件式加總　　SUMIF(條件範圍,條件,加總範圍) <br></p>
+        <p>多條件式加總　SUMIFS(加總範圍,條件1範圍,條件1,條件2範圍,條件2....) <br></p>
+    </blockquote>
+    <table>
+        <thead>
+            <tr>
+                <th align="center">動作</th>
+                <th>內容</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td align="center">工作1</td>
+                <td>在「各分店業績」工作表的 G 欄，使用 AND 函數新增一個公式，當每個月的業績都高於當月的平均值時顯示 TRUE，否則顯示 FALSE</td>
+            </tr>
+            <tr>
+                <td align="center">工作2</td>
+                <td>在「各分店業績」工作表的 H 欄，建立一個公式當第二季的業績高於第一季的業績，或第二季裡的每月業績都逐月成長時 ( 六月業績比五月業績高，且五月業績比四月業績高 )，則顯示 TRUE 否則顯示
+                    FALSE。你僅能在公式中使用 AND 與 OR 函數</td>
+            </tr>
+            <tr>
+                <td align="center">工作3</td>
+                <td>在「各分店業績」工作表的 I 欄，建立一個公式使得每一家分店第二季的平均值若是高於所有分店第二季的總平均值，顯示「獎勵分店」，否則顯示「待努力」</td>
+            </tr>
+            <tr>
+                <td align="center">工作4</td>
+                <td>在「銷售記錄」工作表的儲存格 K2，使用公式計算出經手人江蕙華在一月份銷售金額超 300 元的交易筆數</td>
+            </tr>
+            <tr>
+                <td align="center">工作5</td>
+                <td>在「銷售記錄」工作表的儲存格 K6，使用條件式平均函數計算在「商店甲」商品代號為「C-590」的平均銷售量</td>
+            </tr>
+            <tr>
+                <td align="center">工作6</td>
+                <td>在「銷售記錄」工作表的儲存格 K10，輸入公式計算在所有商品銷售數量超過 10 以上，且售價在 450 元以下的總銷售量</td>
+            </tr>
+        </tbody>
+    </table>
+    <h1 id="mw5">練習 5</h1>
+    <blockquote>
+        <p>公式<br>
+            找出指定位置　MATCH(查詢依據,查詢範圍,比對方式) <br></p>
+        <blockquote>
+            <p>比對方式　1=&gt;小於,0=&gt;完全相符,-1=&gt;大於</p>
+        </blockquote>
+        <p>依欄列查詢　　INDEX(查詢範圍,列,欄) <br></p>
+        <p>查詢(水平)　　VLOOKUP(查詢依據,查詢表範圍,所要資料在查詢表中第幾欄,比對方式) <br></p>
+        <blockquote>
+            <p>比對方式　完全相符=&gt;0,近似值=&gt;省略或其它數字</p>
+        </blockquote>
+        <p>查詢(垂直)　　HLOOKUP(查詢依據,查詢表範圍,所要資料在查詢表中第幾列,比對方式) <br></p>
+        <blockquote>
+            <p>比對方式　完全相符=&gt;0,近似值=&gt;省略或其它數字</p>
+        </blockquote>
+        <p>今天日期時間　NOW() <br></p>
+        <p>今天日期　　TODAY() <br></p>
+        <p>根據定額付款和固定利率計算貸款的付款金額 <br></p>
+        <blockquote>
+            <p>PMT(各期利率,總付款期數,本金,現金餘額,付款期限) <br>
+                付款期限　期末=&gt;0 或省略 ,期初=&gt;1</p>
+        </blockquote>
+        <p>年金每期的利率</p>
+        <blockquote>
+            <p>RATE(總付款期數,各期給付的金額,本金,現金餘額,付款期限) <br>
+                付款期限　期末=&gt;0 或省略 ,期初=&gt;1</p>
+        </blockquote>
+        <p>投資的付款方式為週期、固定支出及固定利率時的期數<br></p>
+        <blockquote>
+            <p>NPER(各期利率,各期給付金額,本金,現金餘額,付款期限) <br>
+                付款期限　期末=&gt;0 或省略 ,期初=&gt;1</p>
+        </blockquote>
+        <p>根據固定利率計算貸款或投資的現值<br></p>
+        <blockquote>
+            <p>PV(各期利率,總付款期數,各期給付金額,現金餘額,付款期限) <br>
+                付款期限　期末=&gt;0 或省略 ,期初=&gt;1</p>
+        </blockquote>
+        <p>定期存款<br></p>
+        <blockquote>
+            <p>FV(各期利率,總付款期數,各期給付金額,本金,付款期限) <br>
+                付款期限　期末=&gt;0 或省略 ,期初=&gt;1</p>
+        </blockquote>
+    </blockquote>
+    <table>
+        <thead>
+            <tr>
+                <th align="center">動作</th>
+                <th>內容</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td align="center">工作1</td>
+                <td>在「郵遞包裹價目表」工作表的儲存格 B11，限定僅能使用 MATCH 與 INDEX 函數，查詢不同包裹類別在不同遞送目的地的每磅單價</td>
+            </tr>
+            <tr>
+                <td align="center">工作2</td>
+                <td>在「銀行匯率查詢」工作表的儲存格 C4，建立函數可以根據儲存格 C1 的幣別內容，以及儲存格 C2 裡買入或賣出選擇，到 E3:G21 中查詢該幣別的買入或賣出匯率。限定使用 VLOOKUP
+                    函數進行查詢</td>
+            </tr>
+            <tr>
+                <td align="center">工作3</td>
+                <td>在「發票清單」工作表的儲存格 C2，輸入函數顯示電腦系統日期和時間</td>
+            </tr>
+            <tr>
+                <td align="center">工作4</td>
+                <td>在「發票清單」工作表中計算 E 欄到期日，其公式為發票日期 + 展延天數</td>
+            </tr>
+            <tr>
+                <td align="center">工作5</td>
+                <td>在「發票清單」工作表中 F 欄建立公式，若到期日尚未超過今天，顯示「尚未到期」，否則顯示「已到期 # 天」。( 註：# 為已到期天數，是整數值 )</td>
+            </tr>
+            <tr>
+                <td align="center">工作6</td>
+                <td>在「問卷」工作表上，透過查詢操作將儲存在「文件」資料夾裡的「問卷調查.xlsx」活頁簿載入到儲存格 A1 開始位置，並僅載入「性別」「年齡」「地區」以及「產品喜好程度」等四個欄位資料</td>
+            </tr>
+            <tr>
+                <td align="center">工作7</td>
+                <td>在「單價分析」工作表上，使用 Excel 假設分析的預測特性，計算商品 31128 的每單位價格要達到多少可以使得「Margin」最接近 20%</td>
+            </tr>
+            <tr>
+                <td align="center">工作8</td>
+                <td>在「貸款償付」工作表的儲存格 C2，新增一個公式計算出每月償付金額。假設每月期初償付本利，貸款金額應該先將價格減去「去備款」( 註:使用 PMT 函數 )</td>
+            </tr>
+            <tr>
+                <td align="center">工作9</td>
+                <td>在「貸款償付」工作表的儲存格 C5，新增一個公式計算年利率為多少，假設向銀行貸款 100 萬、期限為 20 年，每月本息攤還 6,000 元( 註:使用 RATE 函數 )</td>
+            </tr>
+            <tr>
+                <td align="center">工作10</td>
+                <td>在「貸款償付」工作表的儲存格 C8，新增一個公式計算多少年後可以償還完貸款，假設向銀行貸款 300 萬、利率為 2.2%，每月本息攤還 30,000 元( 註:使用 NPER 函數 )
+                </td>
+            </tr>
+            <tr>
+                <td align="center">工作11</td>
+                <td>在「貸款償付」工作表的儲存格 F2，新增一個公式計算可以借到多少錢，假設年利率為 10%，期限為 2 年，一年複利一次到期時還款 10 萬元( 註:使用 PV 函數 )</td>
+            </tr>
+            <tr>
+                <td align="center">工作12</td>
+                <td>在「貸款償付」工作表的儲存格 F5，新增一個公式計算每月存款 2 萬元、年利率 1.25%，採複利計算利息 10 年後會有多少存款( 註:使用 FV 函數 )</td>
+            </tr>
+        </tbody>
+    </table>
+    <h1 id="mw6">練習 6</h1>
+    <table>
+        <thead>
+            <tr>
+                <th align="center">動作</th>
+                <th>內容</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td align="center">工作1</td>
+                <td>在「預算表」工作表顯示所有直接或間接影響到儲存格 H 7 內容的參照</td>
+            </tr>
+            <tr>
+                <td align="center">工作2</td>
+                <td>在「預算表」工作表中，對儲存格範圍 D16:E16 增加監看視窗</td>
+            </tr>
+            <tr>
+                <td align="center">工作3</td>
+                <td>啟用錯誤檢查規則，可以檢查出有不一致的計算結果欄公式</td>
+            </tr>
+            <tr>
+                <td align="center">工作4</td>
+                <td>在「人力分配」工作表中，將儲存格範圍 C3:C8 命名為「營業點」，建立屬於工作表範圍的範圍名稱</td>
+            </tr>
+            <tr>
+                <td align="center">工作5</td>
+                <td>在「人力分配」工作表中，將儲存格範圍 C2:F5 命名為「北部資料」，建立屬於活頁簿範圍的範圍名稱</td>
+            </tr>
+            <tr>
+                <td align="center">工作6</td>
+                <td>在「採購票數」工作表上，將原本名為「表格 1」的表格名稱，變更為「票數統計」</td>
+            </tr>
+            <tr>
+                <td align="center">工作7</td>
+                <td>修改範圍名稱為「總預算」的參照範圍，讓參照範圍僅包括 $E$3:$E$8；再移除參照範圍為「人力分配!$B$9:$F$9」，名稱為「基隆市」的範圍名稱</td>
+            </tr>
+        </tbody>
+    </table>
+    <h1 id="mw7">練習 7</h1>
+    <table>
+        <thead>
+            <tr>
+                <th align="center">動作</th>
+                <th>內容</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td align="center">工作1</td>
+                <td>在「3C 商品銷售」工作表上，針對「第一季 3C 商品銷售」圖表新增一個線性趨勢線，可預測品名為「256G 記憶卡」的銷售量至第 12 週</td>
+            </tr>
+            <tr>
+                <td align="center">工作2</td>
+                <td>在「行動電源」工作表上建立一個新的圖表，以區域圖表顯示銷售金額、以折線圖且使用副座標軸顯示行動電源銷售量</td>
+            </tr>
+            <tr>
+                <td align="center">工作3</td>
+                <td>將「儲存元件」工作表裡的圖表，儲存為圖表範本檔，存放在 Charts 資料夾內，命名為「季銷售圖表」</td>
+            </tr>
+            <tr>
+                <td align="center">工作4</td>
+                <td>根據「交易記錄」工作表上的儲存格範圍 C2:I28 為資料來源，在「客戶交易摘要」工作表的儲存格 A2 建立一個樞紐分析表，顯示每位客戶總交易金額平均值。每一列顯示一位客戶名稱</td>
+            </tr>
+            <tr>
+                <td align="center">工作5</td>
+                <td>在「業務員銷售狀況」工作表中，每個「經手人」底下增加「產品名稱」列。接著，在此工作表上變更樞紐分析表設定，使得檔案開啟時也會自動更新樞紐分析表資料</td>
+            </tr>
+            <tr>
+                <td align="center">工作6</td>
+                <td>在「繳費分析」工作表中，新增交叉分析篩選器，允許使用者可以顯示特定時間點的課程提供資料，其中時間資料應指定時、分、秒</td>
+            </tr>
+            <tr>
+                <td align="center">工作7</td>
+                <td>在「付款分析」工作表上，根據「已付款」群組資料，再根據「付款方式」群組資料，最後依據月份群組「線上報名日期」欄位</td>
+            </tr>
+        </tbody>
+    </table>
+    <h1 id="mw8">練習 8</h1>
+    <table>
+        <thead>
+            <tr>
+                <th align="center">動作</th>
+                <th>內容</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td align="center">工作1</td>
+                <td>此範例所採用的樞紐分析表來源位於資料模型，在「各地區課程」工作表的儲存格 F4 使用 GETPIVOTDATA 函數計算出「新北」地區「樞紐分析入門」課程的報名人數</td>
+            </tr>
+            <tr>
+                <td align="center">工作2</td>
+                <td>在「各季人數」工作表的 D 欄，顯示每一種課程在第二季的最高報名人數</td>
+            </tr>
+            <tr>
+                <td align="center">工作3</td>
+                <td>在「各地區開設課程」工作表上，以列表方式顯示資料，並在每一個上課地點之後插入空白列</td>
+            </tr>
+            <tr>
+                <td align="center">工作4</td>
+                <td>在「付款方式統計」工作表上移除樞紐分析表的總計列</td>
+            </tr>
+            <tr>
+                <td align="center">工作5</td>
+                <td>以「繳費統計」工作表裡的資料為來源，在新的工作表上建立一個樞紐分析圖，其圖表類型為含有資料標記的折線圖，可以顯示每一個運動項目課程的最多報名人數與最多已繳費人數</td>
+            </tr>
+            <tr>
+                <td align="center">工作6</td>
+                <td>在「各地區運動項目」工作表上修改圖表，使得每一個上課地點裡顯示著各種運動項目，並新增「區域」欄位來篩選樞紐分析圖</td>
+            </tr>
+            <tr>
+                <td align="center">工作7</td>
+                <td>修改「各地區人數」工作表上的統計圖表，使其僅顯示上課地點為台北與新北兩地，每一種運動項目的逐月資料</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+
+</html>
