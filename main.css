@@ -64,3 +64,17 @@ body{
     margin-right:20px;
     cursor:pointer;
 }
+#menu{
+    border:1px solid black;
+    width:150px;
+    position:fixed;
+    right:10px;
+    top:10px;
+    z-index:50;
+}
+a{
+    text-decoration: none;
+}
+#menu a:hover{
+    background: yellow;
+}
