@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MOS Excel 2016</title>
+    <link rel="stylesheet" href="main.css">
+    <style>
+        #dec{
+            background: #ccc;
+            cursor:default;
+        }
+        #work1:hover,#work2:hover,#work3:hover,#work4:hover,#work5:hover{
+            background: #aaa;
+        }
+    </style>
+</head>
+<body>
+    <div id="main">
+        <div id="header">
+            <div id="title">專案1</div>
+            <div id="time"></div>
+            <div id="buttont">
+                <input type="button" value="重新啟動項目" id="btn1">
+                <input type="button" value="提交項目" id="btn2">
+            </div>            
+        </div>
+        <div id="content">
+            <div id="nav">
+                <div id="dec">概述</div>
+                <div id="work1">工作1</div>
+                <div id="work2">工作2</div>
+                <div id="work3">工作3</div>
+                <div id="work4">工作4</div>
+                <div id="work5">工作5</div>
+            </div>
+            <div id="qn">
+                你在水果酒廠的營業處工作。你正在準備一個專用於分析產品銷售的Excel活頁簿。
+            </div>
+            <input type="button" value="前一個任務" id="btn3">
+            <input type="button" value="下一個任務" id="btn4">
+        </div>
+    </div>
+    <script>
+        var time=50*60;
+        console.log(typeof(time));
+        function t(){
+            time--;
+            var m=Math.floor(time/60);
+            var s=time%60;
+            if(s<10){
+                s='0'+s;
+            }
+            document.getElementById('time').innerText=m+":"+s;
+            
+            console.log('m='+m);
+            console.log('s='+s);
+        }
+        setInterval(t,1000);
+        const work1=document.getElementById('work1');
+        const work2=document.getElementById('work2');
+        const work3=document.getElementById('work3');
+        const work4=document.getElementById('work4');
+        const work5=document.getElementById('work5');
+        const btn1=document.getElementById('btn1');
+        const btn2=document.getElementById('btn2');
+        const btn3=document.getElementById('btn3');
+        const btn4=document.getElementById('btn4');
+        
+        work1.onclick=function(){
+            window.location.href="b1-1.html?"+time;
+        }
+        work2.onclick=function(){
+            window.location.href="b1-2.html?"+time;
+        }
+        work3.onclick=function(){
+            window.location.href="b1-3.html?"+time;
+        }
+        work4.onclick=function(){
+            window.location.href="b1-4.html?"+time;
+        }
+        work5.onclick=function(){
+            window.location.href="b1-5.html?"+time;
+        }
+        btn1.onclick=function(){
+            window.location.href="ms-excel:ofv|u|https://mybss.github.io/mosexcel/book/b1.xlsx";
+        }
+        btn2.onclick=function(){
+            window.location.href="b2.html?"+time;
+        }
+        btn3.onclick=function(){
+            
+        }
+        btn4.onclick=function(){
+            window.location.href="b1-1.html?"+time;
+        }
+    </script>
+</body>
+</html>
