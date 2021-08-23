@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>教學影片</title>
+    <link rel="stylesheet" href="video-js.css">
+    <style>
+        *,body{
+            padding:0px;
+            margin:0px;
+        }
+    </style>
+</head>
+
+<body>
+    <video
+    id="my-video"
+    class="video-js"
+    controls
+    preload="auto"
+    width="800"
+    height="450"
+    poster="MY_VIDEO_POSTER.jpg"
+    data-setup="{}"
+    >
+    <source src="v8.mp4" type="video/mp4" />
+    <source src="v8.webm" type="video/webm" />
+    <p class="vjs-no-js">
+      To view this video please enable JavaScript, and consider upgrading to a web browser that<a href="https://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+    </p>
+  </video>
+    <script src="video.min.js"></script>    
+</body>
+
+</html>

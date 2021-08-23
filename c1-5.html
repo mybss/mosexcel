@@ -14,12 +14,18 @@
         #dec:hover,#work1:hover,#work2:hover,#work3:hover,#work4:hover{
             background: #aaa;
         }
+        #op a{
+            color:yellow;
+        }
+        #op a:hover{
+            color:red;
+        }
     </style>
 </head>
 <body>
     <div id="main">
         <div id="header">
-            <div id="title">專案1</div>
+            <div id="title">專案1(<span id="op"><a href="#"">影片</a></span>)</div>
             <div id="time"></div>
             <div id="buttont">
                 <input type="button" value="重新啟動項目" id="btn1">
@@ -55,8 +61,8 @@
             }
             document.getElementById('time').innerText=m+":"+s;
             
-            console.log('m='+m);
-            console.log('s='+s);
+            //console.log('m='+m);
+            //console.log('s='+s);
             
         }
         setInterval(t,1000);
@@ -69,7 +75,19 @@
         const btn2=document.getElementById('btn2');
         const btn3=document.getElementById('btn3');
         const btn4=document.getElementById('btn4');
+        const op=document.getElementById('op');
         
+        op.onclick=function(){
+            var wn=window.open(
+                'video/vc1.html',
+                '教學影片',
+                'width=800,height=450,resizable=no,scrollbars=no,status=no,location=no,titlebar=no,toolbar=no,menubar=no'
+            );
+            var scw=(screen.width-800)/2;
+            var sch=(window.screen.height-550)/2;
+                        
+            wn.moveTo(scw,sch);
+        }
         work1.onclick=function(){
             window.location.href="c1-1.html?"+time;
         }
