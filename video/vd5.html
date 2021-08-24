@@ -6,33 +6,50 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>教學影片</title>
-    <link rel="stylesheet" href="video-js.css">
+
     <style>
-        *,body{
-            padding:0px;
-            margin:0px;
+        *,
+        body {
+            padding: 0px;
+            margin: 0px;
         }
+        
     </style>
 </head>
 
 <body>
-    <video
-    id="my-video"
-    class="video-js"
-    controls
-    preload="auto"
-    width="800"
-    height="450"
-    poster="MY_VIDEO_POSTER.jpg"
-    data-setup="{}"
-    >
-    <source src="vd5.mp4" type="video/mp4" />
-    <source src="vd5.webm" type="video/webm" />
-    <p class="vjs-no-js">
-      To view this video please enable JavaScript, and consider upgrading to a web browser that<a href="https://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
-    </p>
-  </video>
-    <script src="video.min.js"></script>    
+    
+    <div id="YouTubeVideoPlayerAPI"></div>
+    <script async src="//www.youtube.com/iframe_api"></script>
+    <script>
+        function onYouTubeIframeAPIReady() {
+            var player;
+            player = new YT.Player('YouTubeVideoPlayerAPI', {
+                videoId: '8jkhm_yTFtI',   // YouTube 影片ID
+                width: '800',            // 播放器寬度 (px)
+                height: '450',           // 播放器高度 (px)
+                playerVars: {
+                    autoplay: 1,            // 自動播放影片
+                    controls: 1,            // 顯示播放器
+                    showinfo: 1,            // 隱藏影片標題
+                    modestbranding: 1,      // 隱藏YouTube Logo
+                    loop: 1,                // 重覆播放
+                    playlist: '8jkhm_yTFtI', // 當使用影片要重覆播放時，需再輸入YouTube 影片ID
+                    fs: 0,                  // 隱藏全螢幕按鈕 0隱藏,1開啟
+                    cc_load_policty: 0,     // 隱藏字幕
+                    iv_load_policy: 3,      // 隱藏影片註解
+                    autohide: 0             // 影片播放時，隱藏影片控制列
+                },
+                events: {
+                    onReady: function (e) {
+                        //e.target.mute();      //播放時靜音
+                        e.target.playVideo(); //強製播放(手機才會自動播放，但僅限於Android)
+                    }
+                }
+            });
+        }
+
+    </script>
 </body>
 
 </html>
