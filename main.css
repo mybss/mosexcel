@@ -78,6 +78,6 @@ a{
 #menu a:hover{
     background: yellow;
 }
-#op,#opex{
+#op{
     display: none;   
 }

@@ -98,3 +98,6 @@ span{
 span a{
     text-decoration: none;
 }
+#opex{
+    display: none;   
+}
