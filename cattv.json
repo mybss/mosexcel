@@ -747,10 +747,18 @@
       "categories": []
     },
     {
-      "key": "BT天堂（限成年人）",
-      "name": "BT天堂（限成年人）",
+      "key": "空白1",
+      "name": "空白1",
       "type": 0,
-      "api": "http://bttcj.com/inc/sapi.php",
+      "api": "",
+      "playUrl": "",
+      "categories": []
+    },
+    {
+      "key": "空白2",
+      "name": "空白2",
+      "type": 0,
+      "api": "",
       "playUrl": "",
       "categories": []
     }
