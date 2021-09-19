@@ -745,6 +745,14 @@
       "api": "http://bttcj.com/inc/sapi.php",
       "playUrl": "",
       "categories": []
+    },
+    {
+      "key": "BT天堂（限成年人）",
+      "name": "BT天堂（限成年人）",
+      "type": 0,
+      "api": "http://bttcj.com/inc/sapi.php",
+      "playUrl": "",
+      "categories": []
     }
   ],
   "lives": [
