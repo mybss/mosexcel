@@ -41,6 +41,51 @@
       "categories": []
     },
     {
+      "key": "csp_Coke",
+      "name": "CK(爬蟲)",
+      "type": 3,
+      "api": "csp_Coke",
+      "searchable": 1,
+      "quickSearch": 0,
+      "filterable": 1
+    },
+    {
+      "key": "csp_Aidi",
+      "name": "愛迪(爬蟲)",
+      "type": 3,
+      "api": "csp_Aidi",
+      "searchable": 1,
+      "quickSearch": 0,
+      "filterable": 1
+    },
+    {
+      "key": "csp_Enlienli",
+      "name": "嗯哩(爬蟲)",
+      "type": 3,
+      "api": "csp_Enlienli",
+      "searchable": 1,
+      "quickSearch": 0,
+      "filterable": 1
+    },
+    {
+      "key": "csp_EPang",
+      "name": "阿房(爬蟲)",
+      "type": 3,
+      "api": "csp_EPang",
+      "searchable": 1,
+      "quickSearch": 0,
+      "filterable": 1
+    },
+    {
+      "key": "csp_Auete",
+      "name": "Auete(爬蟲)",
+      "type": 3,
+      "api": "csp_Auete",
+      "searchable": 1,
+      "quickSearch": 0,
+      "filterable": 1
+    },
+    {
       "key": "605資源",
       "name": "605資源",
       "type": 0,
@@ -87,8 +132,8 @@
       "key": "樂多資源",
       "name": "樂多資源",
       "type": 0,
-      "api": "http://www.leduozy.com/inc/api.php",
-      "playUrl": "https://api.leduotv.com/wp-api/ifr.php?isDp=1&vid=",
+      "api": "https://cj.leduocaiji.com/inc/api.php",
+      "playUrl": "https://api.xxctzy.com/1.php?vid=",
       "categories": [
         "綜藝",
         "動作片",
@@ -178,7 +223,7 @@
       "key": "2A資源站",
       "name": "2A資源站",
       "type": 1,
-      "api": "http://zy.zcocc.com/api.php/provide/vod/at/xml",
+      "api": "http://zy.zcocc.com/api.php/provide/vod/",
       "playUrl": "",
       "categories": [
         "綜藝",
@@ -1804,6 +1849,7 @@
       ]
     }
   ],
+  "spider": "custom_spider.jar",
   "parses": [
     {
       "name": "預設解析",
@@ -2036,6 +2082,20 @@
     {
       "name": "盤古雲多路",
       "url": "https://go.yh0523.cn/y.cy?url="
+    },
+    {
+      "name": "暮光解析",
+      "url": "https://muguang.mgtv.com.muguangys.com/jiexi.php?url="
+    },
+    {
+      "name": "Json.M3u8",
+      "url": "https://json.m3u8.tv:7788/json.php?url=",
+      "type": 1
+    },
+    {
+      "name": "Json.VodJX",
+      "url": "https://www.vodjx.top/api/?key=XSQzk8KFK1I7FfPK5X&url=",
+      "type": 1
     }
   ],
   "flags": [
@@ -2048,7 +2108,8 @@
     "tudou",
     "pptv",
     "mgtv",
-    "wasu"
+    "wasu",
+    "bilibili"
   ],
   "ijk": [
     {
