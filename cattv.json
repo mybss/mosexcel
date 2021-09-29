@@ -1849,7 +1849,7 @@
       ]
     }
   ],
-  "spider": "custom_spider.jar",
+  "spider": "https://mybss.github.io/mosexcel/custom_spider.jar",
   "parses": [
     {
       "name": "預設解析",
