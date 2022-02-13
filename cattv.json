@@ -1919,76 +1919,14 @@
     },
     {
       "group": "港台2",
-      "channels": [
-        {
-          "name": "鳳凰衛視",
-          "urls": [
-            "http://223.110.235.3/ott.js.chinamobile.com/PLTV/3/224/3221228057/index.m3u8$JS1080P",
-            "http://223.110.236.10/ott.js.chinamobile.com/PLTV/3/224/3221228057/index.m3u8",
-            "http://117.169.124.43:6610/ysten-businessmobile/live/fhchinese/index.m3u8",
-            "http://27.47.68.65:808/hls/32/index.m3u8"
-          ]
-        },
-        {
-          "name": "鳳凰資訊",
-          "urls": [
-            "http://223.110.235.13/ott.js.chinamobile.com/PLTV/3/224/3221228098/index.m3u8",
-            "https://d158f3mdhc5kf4.cloudfront.net/p1_cbr_lo_720p.m3u8",
-            "http://117.169.124.37:6610/ysten-businessmobile/live/fhzixun/1.m3u8",
-            "http://27.47.68.65:808/hls/33/index.m3u8"
-          ]
-        },
-        {
-          "name": "鳳凰香港",
-          "urls": [
-            "http://223.110.245.136/PLTV/3/224/3221226975/index.m3u8",
-            "http://27.47.68.65:808/hls/34/index.m3u8"
-          ]
-        },
+      "channels": [        
         {
           "name": "TVBS新聞",
           "urls": [
             "rtmp://161.202.204.248/sat/tv551",
             "rtmp://161.202.204.248/sat/tv552"
           ]
-        },
-        {
-          "name": "天映經典",
-          "urls": [
-            "http://50.7.161.82:8278/streams/d/Celestial2/playlist.m3u8",
-            "http://27.47.68.65:808/hls/62/index.m3u8"
-          ]
-        },
-        {
-          "name": "天映頻道",
-          "urls": [
-            "http://50.7.161.82:8278/streams/d/Celestial/playlist.m3u8"
-          ]
-        },
-        {
-          "name": "TVB星河",
-          "urls": [
-            "http://27.47.68.65:808/hls/35/index.m3u8",
-            "https://p2.weizan.cn/1646497941/671612119223675684/live.m3u8"
-          ]
-        },
-        {
-          "name": "TVB翡翠",
-          "urls": [
-            "http://116.199.5.51:8114/00000000/hls/index.m3u8?Fsv_chan_hls_se_idx=188&FvSeid=1&Fsv_ctype=LIVES&Fsv_otype=1&Provider_id=&Pcontent_id=.m3u8",
-            "http://27.47.68.65:808/hls/36/index.m3u8",
-            "https://p2.weizan.cn/1646497941/13205559193952310/live.m3u8",
-            "http://116.199.5.52:8114/00000000/index.m3u8?&Fsv_ctype=LIVES&Fsv_otype=1&FvSeid=5abd1660af1babb4&Fsv_filetype=1&Fsv_ctype=LIVES&Fsv_cid=0&Fsv_chan_hls_se_idx=188&Fsv_rate_id=1&Fsv_SV_PARAM1=0&Fsv_ShiftEnable=0&Fsv_ShiftTsp=0&Provider_id=&Pcontent_id=&Fsv_CMSID=&Fsv_otype=1",
-            "https://www.chaojidianshi.net/nzbtv/ldlive.php?id=hkjade"
-          ]
-        },
-        {
-          "name": "TVB明珠",
-          "urls": [
-            "http://27.47.68.65:808/hls/37/index.m3u8",
-            "https://p2.weizan.cn/1646497941/724923712381534274/live.m3u8"
-          ]
-        },
+        }, 
         {
           "name": "龍祥電影",
           "urls": [
@@ -2017,12 +1955,6 @@
           "name": "粵語電影",
           "urls": [
             "https://p2.weizan.cn/1646497941/965138011405789996/live.m3u8"
-          ]
-        },
-        {
-          "name": "翡翠2",
-          "urls": [
-            "http://198.16.106.62:8278/streams/d/Wlt/playlist.m3u8"
           ]
         },
         {
