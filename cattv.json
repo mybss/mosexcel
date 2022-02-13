@@ -6,23 +6,7 @@
       "type": 0,
       "api": "http://www.kuaibozy.com/api.php/provide/vod/at/xml/",
       "playUrl": "",
-      "categories": [
-        "國產劇",
-        "港台劇",
-        "日韓劇",
-        "歐美劇",
-        "泰劇",
-        "綜藝",
-        "動漫",
-        "動作片",
-        "喜劇片",
-        "愛情片",
-        "科幻片",
-        "恐怖片",
-        "劇情片",
-        "戰爭片",
-        "紀錄片"
-      ]
+      "categories": []
     },
     {
       "key": "神馬影院",
