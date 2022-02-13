@@ -577,8 +577,8 @@
     {
       "key": "豆瓣雲",
       "name": "豆瓣雲",
-      "type": 1,
-      "api": "http://api.dbyunzy.com/api.php/provide/vod/?ac=list",
+      "type": 0,
+      "api": "http://api.bdyunzy.com/api.php/provide/vod/at/xml/",
       "playUrl": "",
       "categories": [
         "綜藝",
