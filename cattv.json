@@ -679,7 +679,7 @@
 {"key" : "泰剧迷", "name" : "泰剧迷", "type" : 0, "api" : "https://www.taijumi.cc/api.php/provide/vod/at/xml", "playUrl" : "https://jx.fqzy.cc/jx.php?url="},
 {"key" : "欧乐影院", "name" : "欧乐影院", "type" : 0, "api" : "https://www.olevod.tv/api.php/provide/vod/at/xml"},
 {"key" : "竹噶影院", "name" : "竹噶影院", "type" : 0, "api" : "http://m.ycccyk.cn/api.php/provide/vod/at/xml"},
-{"key" : "晓峰影视", "name" : "晓峰影视", "type" : 0, "api" : "http://api.xxcr.tk/api.php/provide/vod/at/xml", "searchable" : 1, "quickSearch" : 1, "filterable" : 0, "categories" : [ "国产剧", "港台剧", "日韩剧", "欧美剧", "综艺", "动漫", "动作片", "科幻片", "恐怖片", "剧情片", "战争片", "喜剧片", "蓝光", "电影", "连续剧", "泰国剧", "大陆动漫", "日本动漫", "爱情片" ]}],
+{"key" : "晓峰影视", "name" : "晓峰影视", "type" : 0, "api" : "http://api.xxcr.tk/api.php/provide/vod/at/xml", "searchable" : 1, "quickSearch" : 1, "filterable" : 0, "categories" : [ "国产剧", "港台剧", "日韩剧", "欧美剧", "综艺", "动漫", "动作片", "科幻片", "恐怖片", "剧情片", "战争片", "喜剧片", "蓝光", "电影", "连续剧", "泰国剧", "大陆动漫", "日本动漫", "爱情片" ]},
     {
       "key": "芒果（限成年人）",
       "name": "芒果（限成年人）",
