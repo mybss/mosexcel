@@ -1,12 +1,87 @@
 {
   "sites": [
     {
-      "key": "快播雲",
-      "name": "快播雲",
+      "key": "快播",
+      "name": "快播",
       "type": 0,
-      "api": "http://www.kuaibozy.com/api.php/provide/vod/at/xml/",
-      "playUrl": "",
-      "categories": []
+      "api": "http://www.kuaibozy.com/api.php/provide/vod/at/xml",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0
+    },
+    {
+      "key": "暢視影視",
+      "name": "首頁2022年2月7日精簡接口 如果資源不可用，請切換“首頁數據源”或切換網絡",
+      "type": 1,
+      "api": "http://app.reboju.net/api.php/provide/vod/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0
+    },
+	    {
+      "key": "優酷視頻會員(官源)",
+      "name": "優酷視頻會員(官源)     ",
+      "type": 0,
+      "api": "http://zy.yilans.net:8090/api.php/provide/vod/from/youku/at/xml/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0
+    },
+    {
+      "key": "愛奇藝會員(官源)",
+      "name": "愛奇藝會員(官源)     ",
+      "type": 0,
+      "api": "http://zy.yilans.net:8090/api.php/provide/vod/from/qiyi/at/xml/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0
+    },
+    {
+      "key": "騰訊視頻(官源)",
+      "name": "騰訊視頻（官源)     ",
+      "type": 0,
+      "api": "http://zy.yilans.net:8090/api.php/provide/vod/from/qq/at/xml/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0
+    },
+    {
+      "key": "芒果TV會員(官源)",
+      "name": "芒果TV會員(官源)     ",
+      "type": 0,
+      "api": "http://zy.yilans.net:8090/api.php/provide/vod/from/mgtv/at/xml/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0
+    },
+    {
+      "key": "搜狐視頻會員(官源)",
+      "name": "搜狐視頻會員(官源)     ",
+      "type": 0,
+      "api": "http://zy.yilans.net:8090/api.php/provide/vod/from/sohu/at/xml/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0
+    },
+    {
+      "key": "csp_appys_xiaogui_555電影",
+      "name": "555電影(M)",
+      "type": 3,
+      "api": "csp_AppYs",
+      "searchable": 1,
+      "quickSearch": 0,
+      "filterable": 1,
+      "ext": "xiaogui_555電影"
+    },
+    {
+      "key": "貓藍光",
+      "name": "貓藍光",
+      "type": 1,
+      "api": "https://mgtv.one/api.php/provide/vod/?ac=list",
+      "playUrl": "https://jx.renrenmi.cc/?url=",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0
     },
     {
       "key": "神馬影院",
@@ -23,52 +98,7 @@
       "api": "https://www.jpysvip.net/api.php/provide/vod/at/xml",
       "playUrl": "",
       "categories": []
-    },
-    {
-      "key": "csp_Coke",
-      "name": "CK(爬蟲)",
-      "type": 3,
-      "api": "csp_Coke",
-      "searchable": 1,
-      "quickSearch": 0,
-      "filterable": 1
-    },
-    {
-      "key": "csp_Aidi",
-      "name": "愛迪(爬蟲)",
-      "type": 3,
-      "api": "csp_Aidi",
-      "searchable": 1,
-      "quickSearch": 0,
-      "filterable": 1
-    },
-    {
-      "key": "csp_Enlienli",
-      "name": "嗯哩(爬蟲)",
-      "type": 3,
-      "api": "csp_Enlienli",
-      "searchable": 1,
-      "quickSearch": 0,
-      "filterable": 1
-    },
-    {
-      "key": "csp_EPang",
-      "name": "阿房(爬蟲)",
-      "type": 3,
-      "api": "csp_EPang",
-      "searchable": 1,
-      "quickSearch": 0,
-      "filterable": 1
-    },
-    {
-      "key": "csp_Auete",
-      "name": "Auete(爬蟲)",
-      "type": 3,
-      "api": "csp_Auete",
-      "searchable": 1,
-      "quickSearch": 0,
-      "filterable": 1
-    },
+    },    
     {
       "key": "605資源",
       "name": "605資源",
@@ -84,6 +114,25 @@
       "api": "http://api.fqzy.cc/api.php/provide/vod/at/xml/",
       "playUrl": "",
       "categories": []
+    },
+    {
+      "key": "番茄影視",
+      "name": "番茄影視    ",
+      "type": 0,
+      "api": "https://tvcj.arbd.cn/api.php/provide/vod/at/xml/",
+      "playUrl": "https://tv.arbd.cn/player/?url=",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0
+    },
+    {
+      "key": "曉峰影視",
+      "name": "曉峰影視",
+      "type": 1,
+      "api": "http://api.xxcr.tk/api.php/provide/vod/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0
     },
     {
       "key": "柚子資源",
@@ -145,159 +194,7 @@
         "足球",
         "網球"
       ]
-    },
-    {
-      "key": "穿梭資源",
-      "name": "穿梭資源",
-      "type": 0,
-      "api": "http://ok.888hyk.com/api.php/provide/vod/at/xml",
-      "playUrl": "",
-      "categories": [
-        "動作片",
-        "喜劇片",
-        "愛情片",
-        "科幻片",
-        "恐怖片",
-        "犯罪片",
-        "戰爭片",
-        "動畫電影",
-        "劇情片",
-        "記錄片",
-        "國產劇",
-        "香港劇",
-        "日本劇",
-        "歐美劇",
-        "大陸綜藝",
-        "日韓綜藝",
-        "港台綜藝",
-        "歐美綜藝",
-        "國產動漫",
-        "日本動漫",
-        "歐美動漫",
-        "海外劇",
-        "台灣劇",
-        "韓國劇",
-        "歌曲MV"
-      ]
-    },
-    {
-      "key": "安逸影院",
-      "name": "安逸影院",
-      "type": 0,
-      "api": "http://dy.51isu.com:11801/api.php/provide/vod/at/xml",
-      "playUrl": "",
-      "categories": [
-        "綜藝",
-        "動漫",
-        "動作片",
-        "喜劇片",
-        "愛情片",
-        "科幻片",
-        "恐怖片",
-        "劇情片",
-        "戰爭片",
-        "國產劇",
-        "港台劇",
-        "日韓劇",
-        "歐美劇",
-        "福利"
-      ]
-    },
-    {
-      "key": "2A資源站",
-      "name": "2A資源站",
-      "type": 1,
-      "api": "http://zy.zcocc.com/api.php/provide/vod/",
-      "playUrl": "",
-      "categories": [
-        "綜藝",
-        "動作片",
-        "喜劇片",
-        "愛情片",
-        "科幻片",
-        "恐怖片",
-        "劇情片",
-        "戰爭片",
-        "國產劇",
-        "香港劇",
-        "韓國劇",
-        "歐美劇",
-        "微電影",
-        "紀錄片",
-        "倫理片",
-        "冒險片",
-        "懸疑片",
-        "犯罪片",
-        "災難片",
-        "魔幻片",
-        "青春片",
-        "音樂片",
-        "其他片",
-        "驚悚片",
-        "動畫片",
-        "奇幻片",
-        "台灣劇",
-        "日本劇",
-        "其他劇",
-        "國產動漫",
-        "日本動漫",
-        "歐美動漫",
-        "其他動漫"
-      ]
-    },
-    {
-      "key": "7k資源",
-      "name": "7k資源",
-      "type": 0,
-      "api": "https://zy.7kjx.com/cjapi.php",
-      "playUrl": "",
-      "categories": [
-        "綜藝",
-        "動漫",
-        "動作片",
-        "喜劇片",
-        "愛情片",
-        "科幻片",
-        "恐怖片",
-        "劇情片",
-        "戰爭片",
-        "國產劇",
-        "港台劇",
-        "日韓劇",
-        "歐美劇",
-        "其他片"
-      ]
-    },
-    {
-      "key": "蘑菇資源",
-      "name": "蘑菇資源",
-      "type": 0,
-      "api": "http://www.moguzyw.com:520/moguzy.php/provide/vod/at/xml/",
-      "playUrl": "",
-      "categories": [
-        "綜藝",
-        "動漫",
-        "動作片",
-        "喜劇片",
-        "愛情片",
-        "科幻片",
-        "恐怖片",
-        "劇情片",
-        "戰爭片",
-        "國產劇",
-        "港台劇",
-        "日韓劇",
-        "歐美劇",
-        "犯罪片",
-        "奇幻片",
-        "懸疑片",
-        "動畫片",
-        "驚悚片",
-        "古裝片",
-        "泰國劇",
-        "其他劇"
-      ]
-    },
+    },    
     {
       "key": "88資源",
       "name": "88資源",
@@ -351,105 +248,11 @@
       ]
     },
     {
-      "key": "追劇吧",
-      "name": "追劇吧",
-      "type": 0,
-      "api": "http://www.huaxiab.com/api.php/provide/vod/at/xml",
-      "playUrl": "",
-      "categories": [
-        "電影",
-        "綜藝",
-        "動漫",
-        "動作片",
-        "喜劇片",
-        "愛情片",
-        "科幻片",
-        "恐怖片",
-        "劇情片",
-        "戰爭片",
-        "國產劇",
-        "港台劇",
-        "日韓劇",
-        "歐美劇",
-        "懸疑片",
-        "災難片",
-        "犯罪片",
-        "其他片",
-        "泰國劇",
-        "倫理片"
-      ]
-    },
-    {
-      "key": "365影視",
-      "name": "365影視",
-      "type": 0,
-      "api": "http://video.365tx.com/api.php/provide/vod/at/xml",
-      "playUrl": ""
-    },
-    {
-      "key": "影派資源",
-      "name": "影派資源",
-      "type": 0,
-      "api": "https://v.dtjos.com/api.php/provide/vod/at/xml",
-      "playUrl": ""
-    },
-    {
       "key": "天堂資源",
       "name": "天堂資源",
       "type": 0,
       "api": "http://vipmv.cc/api.php/provide/vod/at/xml",
       "playUrl": ""
-    },
-    {
-      "key": "淘片直解",
-      "name": "淘片直解",
-      "type": 0,
-      "api": "https://taopianzy.com/home/cjapi/c4ca4238a0b923820dcc509a6f75849b/vod/xml",
-      "playUrl": ""
-    },
-    {
-      "key": "0號資源",
-      "name": "0號資源",
-      "type": 0,
-      "api": "http://api.000zy.com/provide/vod/at/xml/",
-      "playUrl": "",
-      "categories": [
-        "綜藝",
-        "動漫",
-        "動作片",
-        "喜劇片",
-        "愛情片",
-        "科幻片",
-        "恐怖片",
-        "劇情片",
-        "戰爭片",
-        "國產劇",
-        "港台劇",
-        "日韓劇",
-        "歐美劇",
-        "泰國劇",
-        "海外劇",
-        "犯罪片",
-        "奇幻片",
-        "懸疑片",
-        "驚悚片",
-        "古裝片",
-        "動畫片"
-      ]
-    },
-    {
-      "key": "飯團資源",
-      "name": "飯團資源",
-      "type": 0,
-      "api": "http://fantuan.wkfile.com/api.php/provide/vod/at/xml/\n",
-      "playUrl": ""
-    },
-    {
-      "key": "360資源",
-      "name": "360資源",
-      "type": 0,
-      "api": "http://xa88.vip:88/api.php/provide/vod/at/xml",
-      "playUrl": "https://www.2ajx.com/vip.php?url="
     },
     {
       "key": "星辰資源",
@@ -466,136 +269,12 @@
       "playUrl": ""
     },
     {
-      "key": "09藍光影視",
-      "name": "09藍光影視",
-      "type": 0,
-      "api": "https://09tv.top/api.php/provide/vod/at/xml",
-      "playUrl": "",
-      "filterable": 1
-    },
-    {
-      "key": "7K(蝦米)資源",
-      "name": "7K(蝦米)資源",
-      "type": 0,
-      "api": "https://zy.xmflv.vip/api.php/provide/vod/at/xml",
-      "playUrl": "",
-      "categories": []
-    },
-    {
       "key": "阿裡影視網",
       "name": "阿裡影視網",
       "type": 0,
       "api": "http://www.feishi.ltd/api.php/provide/vod/at/xml",
       "playUrl": "",
       "categories": []
-    },
-    {
-      "key": "樂喵資源",
-      "name": "樂喵資源",
-      "type": 0,
-      "api": "https://98hyk.cn/api.php/provide/vod/at/xml",
-      "playUrl": "",
-      "categories": []
-    },
-    {
-      "key": "無極影院",
-      "name": "無極影院",
-      "type": 0,
-      "api": "http://wujiys.com/api.php/provide/vod/at/xml",
-      "playUrl": "",
-      "categories": []
-    },
-    {
-      "key": "百度採集",
-      "name": "百度採集",
-      "type": 1,
-      "api": "https://api.bdjx.vip/api.php/provide/vod/",
-      "playUrl": "https://api.jhdyw.vip/?url="
-    },
-    {
-      "key": "免費影院",
-      "name": "免費影院",
-      "type": 1,
-      "api": "http://www.ruiuri.com/api.php/provide/vod/?ac=list",
-      "playUrl": ""
-    },
-    {
-      "key": "看看屋",
-      "name": "看看屋",
-      "type": 0,
-      "api": "http://www.kkkanju.com/api.php/provide/vod/at/xml",
-      "playUrl": ""
-    },
-    {
-      "key": "紅牛資源",
-      "name": "紅牛資源",
-      "type": 1,
-      "api": "https://www.hongniuzy.com/inc/apijson_vodhnm3u8.php",
-      "playUrl": ""
-    },
-    {
-      "key": "北斗資源",
-      "name": "北斗資源",
-      "type": 1,
-      "api": "https://m3u8.bdxzyapi.com/api.php/provide/vod/?ac=list",
-      "playUrl": ""
-    },
-    {
-      "key": "橘貓影視",
-      "name": "橘貓影視",
-      "type": 0,
-      "api": "http://www.zitv.cc/api.php/provide/vod/at/xml/",
-      "playUrl": "",
-      "categories": [
-        "綜藝",
-        "動作片",
-        "喜劇片",
-        "愛情片",
-        "科幻片",
-        "恐怖片",
-        "劇情片",
-        "戰爭片",
-        "國產劇",
-        "港劇",
-        "日劇",
-        "歐美劇",
-        "台劇",
-        "韓劇",
-        "其他動漫",
-        "倫理",
-        "海外劇",
-        "紀錄片",
-        "國產動漫",
-        "日本動漫",
-        "歐美動漫",
-        "動畫電影",
-        "籃球",
-        "足球",
-        "網球"
-      ]
-    },
-    {
-      "key": "豆瓣雲",
-      "name": "豆瓣雲",
-      "type": 0,
-      "api": "http://api.bdyunzy.com/api.php/provide/vod/at/xml/",
-      "playUrl": "",
-      "categories": []
-    },
-    {
-      "key": "泡泡影視",
-      "name": "泡泡影視",
-      "type": 0,
-      "api": "http://www.chinaboshan.com/api.php/provide/vod/at/xml",
-      "playUrl": "",
-      "categories": []
-    },
-    {
-      "key": "電影牛資源",
-      "name": "電影牛資源",
-      "type": 0,
-      "api": "https://www.dianyingn.com/api.php/provide/vod/at/xml/",
-      "playUrl": ""
     },
     {
       "key": "209資源",
@@ -614,54 +293,6 @@
       "categories": []
     },
     {
-      "key": "三零資源",
-      "name": "三零資源",
-      "type": 0,
-      "api": "http://api.000zy.com/provide/vod/at/xml/",
-      "playUrl": "",
-      "categories": []
-    },
-    {
-      "key": "ZY資源",
-      "name": "ZY資源",
-      "type": 0,
-      "api": "https://zy.zcocc.com/api.php/provide/vod/at/xml",
-      "playUrl": "",
-      "categories": []
-    },
-    {
-      "key": "明日資源",
-      "name": "明日資源",
-      "type": 0,
-      "api": "http://zy.zcocc.com/api.php/provide/vod/at/xml",
-      "playUrl": "",
-      "categories": []
-    },
-    {
-      "key": "偵探APP",
-      "name": "偵探APP",
-      "type": 0,
-      "api": "http://ys.huangguay.com/api.php/provide/vod/at/xml/",
-      "playUrl": "",
-      "categories": []
-    },
-    {
-      "key": "KK看劇",
-      "name": "KK看劇",
-      "type": 0,
-      "api": "http://www.kkkanju.com/api.php/provide/vod/at/xml",
-      "playUrl": "",
-      "categories": []
-    },
-    {
-      "key": "萌果資源",
-      "name": "萌果資源",
-      "type": 0,
-      "api": "http://api.appearoo.top/api.php/provide/vod/at/xml/",
-      "playUrl": "",
-      "categories": []
-    },
-    {
       "key": "美劇星球",
       "name": "美劇星球",
       "type": 0,
@@ -670,58 +301,10 @@
       "categories": []
     },
     {
-      "key": "老鴨資源",
-      "name": "老鴨資源",
-      "type": 0,
-      "api": "https://api.apilyzy.com/api.php/provide/vod/at/xml",
-      "playUrl": "",
-      "categories": []
-    },
-    {
-      "key": "天空資源",
-      "name": "天空資源",
-      "type": 0,
-      "api": "https://caiji.tiankongapi.com/inc/api.php",
-      "playUrl": "",
-      "categories": []
-    },
-    {
       "key": "八戒雲",
       "name": "八戒雲",
       "type": 0,
       "api": "http://cj.bajiecaiji.com/inc/bjm3u8.php",
-      "playUrl": "",
-      "categories": []
-    },
-    {
-      "key": "速搜資源",
-      "name": "速搜資源",
-      "type": 0,
-      "api": "http://www.susouzy.com/api.php/provide/vod/at/xml",
-      "playUrl": "",
-      "categories": []
-    },
-    {
-      "key": "1886資源",
-      "name": "1886資源",
-      "type": 1,
-      "api": "http://cj.1886zy.co/inc/api.php",
-      "playUrl": "",
-      "categories": []
-    },
-    {
-      "key": "恐怖鴨資源",
-      "name": "恐怖鴨資源",
-      "type": 0,
-      "api": "https://kongbuya.com/api.php/provide/vod/at/xml/",
-      "playUrl": "",
-      "categories": []
-    },
-    {
-      "key": "好好資源",
-      "name": "好好資源",
-      "type": 0,
-      "api": "http://haohaozy.com/api.php/provide/vod/at/xml/",
       "playUrl": "",
       "categories": []
     },
@@ -1799,15 +1382,250 @@
       ]
     }
   ],
-  "spider": "http://www.pandown.pro/custom_spider.jar",
+  "spider": "https://mybss.github.io/mosexcel/custom_spider.jar",
   "parses": [
     {
       "name": "預設解析",
       "url": "https://1.api.80tvs.cn/?url="
     },
     {
+      "name": "Json並發",
+      "type": 2,
+      "url": "Parallel"
+    },
+    {
+      "name": "Json輪詢",
+      "type": 2,
+      "url": "Sequence"
+    },
+    {
+      "name": "靈狐影視",
+      "type": 1,
+      "url": "https://api.parwix.com:4433/analysis/json/?uid=84&my=gijkmnouvxyFHPYZ28&url="
+    },
+    {
+      "name": "黃河影視",
+      "type": 1,
+      "url": "http://jx.ledu8.cn/api/?key=P8QSgO61p1MpHV2ALn&url="
+    },
+    {
+      "name": "Vip影院1",
+      "type": 1,
+      "url": "https://api.zakkpa.com:8888/analysis/json/?uid=39&my=bdfinvyBCDEJKUY089&url="
+    },
+    {
       "name": "無廣告超清",
       "url": "https://jx.awx88.cn/jiexi/?url="
+    },
+    {
+      "name": "瑞豐資源",
+      "type": 1,
+      "url": "https://api.m3u8.tv:5678/home/api?type=ys&uid=1285201&key=bcikqtwxyADEGKUX36&url="
+    },
+    {
+      "name": "綠箭影視2",
+      "type": 1,
+      "url": "https://json.pangujiexi.com:12345/json.php?url="
+    },
+    {
+      "name": "觔斗雲",
+      "type": 1,
+      "url": "https://api.m3u8.tv:5678/home/api?type=ys&uid=1494542&key=ijmqvwxABEHILMOT48&url="
+    },
+    {
+      "name": "綠箭影視1",
+      "type": 1,
+      "url": "https://api.m3u8.tv:5678/home/api?type=ys&uid=7743764&key=acgjlopuxACEHJLT48&url="
+    },
+    {
+      "name": "久九影視",
+      "type": 1,
+      "url": "https://json.hfyrw.com/mao.go?url="
+    },
+    {
+      "name": "藍光視頻",
+      "type": 1,
+      "url": "https://api.m3u8.tv:5678/home/api?type=ys&uid=1931000&key=gktuvyzABEORSYZ135&url="
+    },
+    {
+      "name": "4K影院1",
+      "type": 1,
+      "url": "https://api.m3u8.tv:5678/home/api?type=ys&uid=1095368&key=cdgjpsuDFLNRTUVY03&url="
+    },
+    {
+      "name": "益達影院",
+      "type": 1,
+      "url": "https://api.m3u8.tv:5678/home/api?type=ys&uid=123503&key=fgkqryzDEFLNQSTW69&url="
+    },
+    {
+      "name": "(無名)",
+      "type": 1,
+      "url": "https://api.zakkpa.com:8888/analysis/json/?uid=91&my=gjksuvCHIJLRS01268&url="
+    },
+    {
+      "name": "DC影視",
+      "type": 1,
+      "url": "https://api.m3u8.tv:5678/home/api?type=ys&uid=7665652&key=dglmnwEFILMOPRW056&url="
+    },
+    {
+      "name": "抹茶豬",
+      "type": 1,
+      "url": "https://api.m3u8.tv:5678/home/api?type=ys&uid=1525223&key=fhikpsvBCDFHJOSUZ8&url="
+    },
+    {
+      "name": "麻瓜視頻",
+      "type": 1,
+      "url": "https://api.parwix.com:4433/analysis/json/?uid=1735&my=cejkmnuvyBEFINR056&url="
+    },
+    {
+      "name": "追劇吧2",
+      "type": 1,
+      "url": "https://svip.spchat.top/api/?key=SAl7tLs3Zzu5alSNtz&url="
+    },
+    {
+      "name": "看劇吧1",
+      "type": 1,
+      "url": "https://supervip.rongxingvr.cn:8866/api/?key=nKn4eO8giUKSe8jxZU&url="
+    },
+    {
+      "name": "Yoyo1",
+      "type": 1,
+      "url": "https://json.legendwhb.cn/json.php/?url="
+    },
+    {
+      "name": "星影相隨1",
+      "type": 1,
+      "url": "https://xt.gbxy.net.cn/api/?key=7gAmfK5typSVsg2Qnr&url="
+    },
+    {
+      "name": "愛影視",
+      "type": 1,
+      "url": "http://14.17.115.200:520/json.php?id=6e5LaYyU5JLs9aRawyGKwPkH7ZFr701z&url="
+    },
+    {
+      "name": "追劇吧1",
+      "type": 1,
+      "url": "http://newjiexi.gotto.top/yun_apib.php/?url="
+    },
+    {
+      "name": "優視影視",
+      "type": 1,
+      "url": "http://ccc.ysys.asia/jx/?id=2&url="
+    },
+    {
+      "name": "黃河影視",
+      "type": 1,
+      "url": "http://jx.ledu8.cn/api/?key=P8QSgO61p1MpHV2ALn&url="
+    },
+    {
+      "name": "(無名)1",
+      "type": 1,
+      "url": "http://vipjh.chunbaotaiji.com/?url="
+    },
+    {
+      "name": "麻瓜視頻1",
+      "type": 1,
+      "url": "https://jhjx.ptygx.com/xttyjx.php/?url="
+    },
+    {
+      "name": "Vip影院",
+      "type": 1,
+      "url": "https://api.zakkpa.com:8888/analysis/json/?uid=39&my=ehklrtxzAFKLMNUXY2&url="
+    },
+    {
+      "name": "大頭影視",
+      "type": 1,
+      "url": "http://fast.rongxingvr.cn:99/api/?key=M3tZzS2q0oGrQ7aWlr&url="
+    },
+    {
+      "name": "綠箭影視",
+      "type": 1,
+      "url": "http://jf.jisutuku.top/api/?key=RHjXcjUTkyZnfWx9u4&url="
+    },
+    {
+      "name": "我愛電影1",
+      "type": 1,
+      "url": "https://vip.kpjx.cc/api/?key=3sKKYzWSxLmX1hnsMs&url="
+    },
+    {
+      "name": "Yoyo",
+      "type": 1,
+      "url": "http://47.100.138.210:91/home/api?type=ys&uid=1947441&key=bcfgjmuwCEORSVX237&url="
+    },
+    {
+      "name": "蜜果TV",
+      "type": 1,
+      "url": "https://fast.rongxingvr.cn:8866/api/?key=rmxOw7BpINuGIyWQng&url="
+    },
+    {
+      "name": "觔斗雲1",
+      "type": 1,
+      "url": "https://fast.rongxingvr.cn:8866/api/?key=nrR7koAyq9ajKId4nC&url="
+    },
+    {
+      "name": "麻花視頻",
+      "type": 1,
+      "url": "http://jf.tcspvip.com:246/home/api?type=ys&uid=65404&key=bjoprtvyABGIMPXZ27&url="
+    },
+    {
+      "name": "TV酷",
+      "type": 1,
+      "url": "http://a.dxzj88.com/jhjson/?url="
+    },
+    {
+      "name": "飯後電影",
+      "type": 1,
+      "url": "https://fast.rongxingvr.cn:8866/api/?key=J4mUIu3DrRtIOojDox&url="
+    },
+    {
+      "name": "影閱閣2",
+      "type": 1,
+      "url": "https://api.m3u8.tv:5678/home/api?type=ys&uid=594615&key=bcehpqtxCEGKMT0248&url="
+    },
+    {
+      "name": "看劇吧",
+      "type": 1,
+      "url": "http://47.100.138.210:91/home/api?type=ys&uid=243653&key=kqswxyABGHKLQSV127&url="
+    },
+    {
+      "name": "豆渣影視",
+      "type": 1,
+      "url": "https://fast.rongxingvr.cn:8866/api/?key=jtDZ22biNujOBLlgoe&url="
+    },
+    {
+      "name": "優視影視2",
+      "type": 1,
+      "url": "http://ccc.ysys.asia/jx/?id=4&url="
+    },
+    {
+      "name": "星空影視",
+      "type": 1,
+      "url": "http://api.vip123kan.vip/?url="
+    },
+    {
+      "name": "愛追劇",
+      "type": 1,
+      "url": "https://jhjx.ptygx.com/xttyjx.php/?url="
+    },
+    {
+      "name": "極客",
+      "type": 1,
+      "url": "https://sbsb.i8k.cc/?url="
+    },
+    {
+      "name": "遺忘影視",
+      "type": 1,
+      "url": "http://gq.bywdtk.cn/?url="
+    },
+    {
+      "name": "璽娜影視",
+      "type": 1,
+      "url": "https://balabala.yatongle.com/api/?key=RuHZpg9zxigiLZRIyl&url="
+    },
+    {
+      "name": "雪人影視",
+      "type": 1,
+      "url": "https://svip.renrenmi.cc:2222/api/?key=S77lACKG9VTwNq5Upv&url="
     },
     {
       "name": "藍光解析",
@@ -2022,7 +1840,8 @@
       "url": "https://jx.quanmingjiexi.com/?url="
     },
     {
-      "name": "parwix解析",
+      "name": "parwix",
+      "type": 0,
       "url": "https://jx.parwix.com:4433/player/?url="
     },
     {
