@@ -2325,20 +2325,8 @@
       "url": "https://api.3jx.top/vip/?url="
     },
     {
-      "name": "116",
-      "url": "https://jx.116kan.com/?url="
-    },
-    {
-      "name": "200",
-      "url": "https://vip.66parse.club/?url="
-    },
-    {
       "name": "雲析",
       "url": "https://jx.yparse.com/index.php?url="
-    },
-    {
-      "name": "8090",
-      "url": "https://www.8090g.cn/?url="
     },
     {
       "name": "80tv",
@@ -2361,21 +2349,9 @@
       "url": "http://60jx.com/?url="
     },
     {
-      "name": "全民解析",
-      "url": "https://jx.quanmingjiexi.com/?url="
-    },
-    {
       "name": "parwix",
       "type": 0,
       "url": "https://jx.parwix.com:4433/player/?url="
-    },
-    {
-      "name": "CKMOV解析",
-      "url": "https://ckmov.ccyjjd.com/ckmov/?url="
-    },
-    {
-      "name": "盤古雲多路",
-      "url": "https://go.yh0523.cn/y.cy?url="
     },
     {
       "name": "暮光解析",
@@ -2588,12 +2564,7 @@
 {"name" : "娃娃", "url" : "http://frog.pinellia.xyz/jx/?url="},
 {"name" : "人人迷", "url" : "https://jx.renrenmi.cc/?url="},
 {"name" : "扶风", "type" : 1, "url" : "https://vip.byteamone.cn/api/?key=vpO0packXeAp4XYCnA&url="},
-{"name" : "追剧达人3", "type" : 1, "url" : "http://jx.vipmv.co/json3/?url="},
-    {
-      "name": "Json.VodJX",
-      "url": "https://www.vodjx.top/api/?key=XSQzk8KFK1I7FfPK5X&url=",
-      "type": 1
-    }
+{"name" : "追剧达人3", "type" : 1, "url" : "http://jx.vipmv.co/json3/?url="}
   ],
   "flags": [
     "youku",
