@@ -99,14 +99,6 @@
       "categories": []
     },
     {
-      "key": "605資源",
-      "name": "605資源",
-      "type": 0,
-      "api": "http://www.605zy.co/inc/605m3u8.php",
-      "playUrl": "",
-      "categories": []
-    },
-    {
       "key": "番茄影視",
       "name": "番茄影視",
       "type": 0,
@@ -187,12 +179,6 @@
       ]
     },
     {
-      "key": "88資源",
-      "name": "88資源",
-      "type": 0,
-      "api": "http://www.88zyw.net/inc/api.php"
-    },
-    {
       "key": "39影視",
       "name": "39影視",
       "type": 0,
@@ -220,8 +206,8 @@
       "playUrl": ""
     },
     {
-      "key": "阿里影視網",
-      "name": "阿里影視網",
+      "key": "阿裡影視網",
+      "name": "阿裡影視網",
       "type": 0,
       "api": "http://www.feishi.ltd/api.php/provide/vod/at/xml",
       "playUrl": "",
@@ -1743,37 +1729,37 @@
           ]
         },
         {
-          "name": "斗魚電影1",
+          "name": "鬥魚電影1",
           "urls": [
             "http://148.70.143.24/cms/yslb/yunshitv/wangyouzhibo/douyu.php?tvplay=925724"
           ]
         },
         {
-          "name": "斗魚電影2",
+          "name": "鬥魚電影2",
           "urls": [
             "http://148.70.143.24/cms/yslb/yunshitv/wangyouzhibo/douyu.php?tvplay=122402"
           ]
         },
         {
-          "name": "斗魚電影3",
+          "name": "鬥魚電影3",
           "urls": [
             "http://148.70.143.24/cms/yslb/yunshitv/wangyouzhibo/douyu.php?tvplay=85894"
           ]
         },
         {
-          "name": "斗魚電影4",
+          "name": "鬥魚電影4",
           "urls": [
             "http://148.70.143.24/cms/yslb/yunshitv/wangyouzhibo/douyu.php?tvplay=310926"
           ]
         },
         {
-          "name": "斗魚電影5",
+          "name": "鬥魚電影5",
           "urls": [
             "http://148.70.143.24/cms/yslb/yunshitv/wangyouzhibo/douyu.php?tvplay=263824"
           ]
         },
         {
-          "name": "斗魚動漫",
+          "name": "鬥魚動漫",
           "urls": [
             "http://148.70.143.24/cms/yslb/yunshitv/wangyouzhibo/douyu.php?tvplay=206858"
           ]
@@ -2066,7 +2052,7 @@
           ]
         },
         {
-          "name": "李連傑",
+          "name": "李連杰",
           "urls": [
             "http://vip.auney.cn/api/huya.php?id=11342390"
           ]
@@ -2852,7 +2838,7 @@
       "url": "https://vip.cjys.top/?url="
     },
     {
-      "name": "盤古雲",
+      "name": "盤古云",
       "url": "https://go.yh0523.cn/y.cy?url="
     },
     {
@@ -3204,7 +3190,7 @@
       "url": "http://www.mgtv.com.wchulian.com.cn/player/analysis.php?v="
     },
     {
-      "name": "云云",
+      "name": "雲雲",
       "url": "http://159.75.133.231:81/jiexi/?url="
     },
     {
@@ -3456,7 +3442,7 @@
       "url": "http://9ok.co/?url="
     },
     {
-      "name": "干飯(人人迷)",
+      "name": "乾飯(人人迷)",
       "url": "https://jx.zui.cm/?url="
     },
     {
