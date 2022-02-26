@@ -99,16 +99,6 @@
       "categories": []
     },
     {
-      "key": "番茄影視",
-      "name": "番茄影視",
-      "type": 0,
-      "api": "https://tvcj.arbd.cn/api.php/provide/vod/at/xml/",
-      "playUrl": "https://tv.arbd.cn/player/?url=",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 0
-    },
-    {
       "key": "曉峰影視",
       "name": "曉峰影視",
       "type": 1,
@@ -192,20 +182,6 @@
       "api": "http://vipmv.cc/api.php/provide/vod/at/xml"
     },
     {
-      "key": "星辰資源",
-      "name": "星辰資源",
-      "type": 1,
-      "api": "http://www.zycaiji.net:7788/api.php/provide/vod",
-      "playUrl": ""
-    },
-    {
-      "key": "M3U8.TV",
-      "name": "M3U8.TV",
-      "type": 0,
-      "api": "http://www.zycaiji.net:7788/api.php/provide/vod/at/xml//n",
-      "playUrl": ""
-    },
-    {
       "key": "阿裡影視網",
       "name": "阿裡影視網",
       "type": 0,
@@ -222,28 +198,10 @@
       "categories": []
     },
     {
-      "key": "8090",
-      "name": "8090",
-      "type": 0,
-      "api": "http://zy.yilans.net:8090/api.php/provide/vod/at/xml"
-    },
-    {
-      "key": "美劇星球",
-      "name": "美劇星球",
-      "type": 0,
-      "api": "https://www.meijuxq.com/inc/api.php"
-    },
-    {
       "key": "八戒採集",
       "name": "八戒採集",
       "type": 0,
       "api": "http://cj.bajiecaiji.com/inc/bjm3u8.php"
-    },
-    {
-      "key": "資源採集",
-      "name": "資源採集",
-      "type": 0,
-      "api": "http://www.zycaiji.net:7788/api.php/provide/vod/at/xml//n"
     },
     {
       "key": "人人資源",
@@ -295,19 +253,6 @@
       "api": "https://www.siguyy.com/api.php/provide/vod/at/xml"
     },
     {
-      "key": "TVB雲",
-      "name": "TVB雲",
-      "type": 0,
-      "api": "http://www.tvyb02.com/api.php/provide/vod/at/xml",
-      "playUrl": "http://jx.hao-zsj.cn/vip/?url="
-    },
-    {
-      "key": "愛搜影視",
-      "name": "愛搜影視",
-      "type": 0,
-      "api": "https://www.yunbangcheng.com/api.php/provide/vod/at/xml"
-    },
-    {
       "key": "北斗星資源",
       "name": "北斗星資源",
       "type": 1,
@@ -318,13 +263,6 @@
       "name": "酷點資源",
       "type": 1,
       "api": "https://kudian8.com/api.php/provide/vod?ac=list"
-    },
-    {
-      "key": "韓劇資源",
-      "name": "韓劇資源",
-      "type": 0,
-      "api": "http://www.hanjuzy.com/inc/api.php",
-      "playUrl": "https://jx.aidouer.net/?url="
     },
     {
       "key": "清歡",
@@ -345,12 +283,6 @@
       "api": "http://gqcyy.com/api.php/provide/vod/at/xml"
     },
     {
-      "key": "靈智雲",
-      "name": "靈智雲",
-      "type": 0,
-      "api": "https://app.linzhiyuan.xyz/api.php/provide/vod/at/xml"
-    },
-    {
       "key": "飛魚",
       "name": "飛魚",
       "type": 0,
@@ -367,12 +299,6 @@
       "name": "黃河影視",
       "type": 0,
       "api": "http://i.ledu8.cn/api.php/provide/vod/at/xml"
-    },
-    {
-      "key": "3號港劇",
-      "name": "3號港劇",
-      "type": 0,
-      "api": "https://www.hktv03.com/api.php/provide/vod/at/xml"
     },
     {
       "key": "OmoFun動漫",
@@ -413,12 +339,6 @@
       "api": "https://www.mbomovie.com/api.php/provide/vod/at/xml"
     },
     {
-      "key": "605資源",
-      "name": "605資源",
-      "type": 0,
-      "api": "http://www.605zy.co/inc/api.php/"
-    },
-    {
       "key": "88資源",
       "name": "88資源",
       "type": 0,
@@ -435,18 +355,6 @@
       "name": "小蜻蜓",
       "type": 0,
       "api": "http://3ketv.com/api.php/provide/vod/at/xml"
-    },
-    {
-      "key": "YT影視",
-      "name": "YT影視",
-      "type": 0,
-      "api": "http://ytys.cc/api.php/provide/vod/at/xml"
-    },
-    {
-      "key": "電影牛",
-      "name": "電影牛",
-      "type": 0,
-      "api": "https://www.dianyingn.cc/api.php/provide/vod/at/xml"
     },
     {
       "key": "艾特影視",
@@ -467,13 +375,6 @@
       "name": "BL視頻",
       "type": 0,
       "api": "https://bljiex.com/api.php/provide/vod/at/xml"
-    },
-    {
-      "key": "1905",
-      "name": "1905",
-      "type": 0,
-      "api": "http://zy.yilans.net:8090/api.php/provide/vod/from/m1905/at/xml",
-      "playUrl": "http://api.u1o.net/?url="
     },
     {
       "key": "網民電影",
@@ -517,13 +418,6 @@
       "name": "樂活影視",
       "type": 0,
       "api": "https://lehootv.com/api.php/provide/vod/at/xml"
-    },
-    {
-      "key": "樂多資源",
-      "name": "樂多資源",
-      "type": 0,
-      "api": "http://api.leduosj.com/inc/api.php",
-      "playUrl": "https://ldy.jx.cn/wp-api/ifr.php?vid="
     },
     {
       "key": "芒果（限成年人）",
