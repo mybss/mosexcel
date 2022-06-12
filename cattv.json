@@ -95,7 +95,7 @@
       "key": "無盡資源",
       "name": "無盡資源",
       "type": 0,
-      "api": "https://wuzy9.com/api.php/provide/vod/at/xml"
+      "api": "https://api.wujinapi.net/api.php/provide/vod/at/xml"
     },
     {
       "key": "快播資源",
