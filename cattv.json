@@ -8,83 +8,14 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 0
-    },
-    {
-      "key": "暢視影視",
-      "name": "暢視影視",
-      "type": 1,
-      "api": "http://app.reboju.net/api.php/provide/vod/",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 0
-    },
-    {
-      "key": "樂多資源",
-      "name": "樂多資源",
-      "type": 0,
-      "api": "https://cj.leduocaiji.com/inc/api.php",
-      "playUrl": "https://api.xxctzy.com/1.php?vid=",
-      "categories": [
-        "綜藝",
-        "動作片",
-        "喜劇片",
-        "愛情片",
-        "科幻片",
-        "恐怖片",
-        "劇情片",
-        "戰爭片",
-        "國產劇",
-        "港劇",
-        "日劇",
-        "歐美劇",
-        "台劇",
-        "韓劇",
-        "其他動漫",
-        "倫理",
-        "海外劇",
-        "紀錄片",
-        "國產動漫",
-        "日本動漫",
-        "歐美動漫",
-        "動畫電影",
-        "籃球",
-        "足球",
-        "網球"
-      ]
-    },
+    },    
     {
       "key": "39影視",
       "name": "39影視",
       "type": 0,
       "api": "https://www.39kan.com/api.php/provide/vod/at/xml",
       "playUrl": "http://jx.hao-zsj.cn/vip/?url="
-    },
-    {
-      "key": "天堂資源",
-      "name": "天堂資源",
-      "type": 0,
-      "api": "http://vipmv.cc/api.php/provide/vod/at/xml"
-    },
-    {
-      "key": "209資源",
-      "name": "209資源",
-      "type": 0,
-      "api": "http://api.fqzy.cc/api.php/provide/vod/at/xml/",
-      "playUrl": "",
-      "categories": []
-    },
-    {
-      "key": "八戒採集",
-      "name": "八戒採集",
-      "type": 0,
-      "api": "http://cj.bajiecaiji.com/inc/bjm3u8.php"
-    },
-    {
-      "key": "人人資源",
-      "name": "人人資源",
-      "type": 0,
-      "api": "https://www.rrzyw.cc/api.php/provide/vod/at/xml"
-    },
+    },    
     {
       "key": "臥龍資源",
       "name": "臥龍資源",
@@ -96,132 +27,24 @@
       "name": "無盡資源",
       "type": 0,
       "api": "https://api.wujinapi.net/api.php/provide/vod/at/xml"
-    },
-    {
-      "key": "快播資源",
-      "name": "快播資源",
-      "type": 0,
-      "api": "http://www.kuaibozy.com/api.php/provide/vod/at/xml"
-    },
-    {
-      "key": "麒麟資源",
-      "name": "麒麟資源",
-      "type": 0,
-      "api": "https://www.qilinzyz.com/api.php/provide/vod/at/xml"
-    },
-    {
-      "key": "番茄資源",
-      "name": "番茄資源",
-      "type": 0,
-      "api": "http://api.fqzy.cc/api.php/provide/vod/at/xml",
-      "playUrl": "https://dp.8b5q.cn/dplayer/?url="
-    },
-    {
-      "key": "思古",
-      "name": "思古",
-      "type": 0,
-      "api": "https://www.siguyy.com/api.php/provide/vod/at/xml"
-    },
+    },    
     {
       "key": "酷點資源",
       "name": "酷點資源",
       "type": 1,
       "api": "https://kudian8.com/api.php/provide/vod?ac=list"
-    },
-    {
-      "key": "隨便看",
-      "name": "隨便看",
-      "type": 0,
-      "api": "https://www.sbkdy.com/inc/api.php"
-    },
-    {
-      "key": "共青春",
-      "name": "共青春",
-      "type": 0,
-      "api": "http://gqcyy.com/api.php/provide/vod/at/xml"
-    },
+    },    
     {
       "key": "lehoo資源",
       "name": "lehoo資源",
       "type": 0,
       "api": "https://www.lehootv.com/api.php/provide/vod/at/xml"
-    },
-    {
-      "key": "黃河影視",
-      "name": "黃河影視",
-      "type": 0,
-      "api": "http://i.ledu8.cn/api.php/provide/vod/at/xml"
-    },
-    {
-      "key": "趣看視頻",
-      "name": "趣看視頻",
-      "type": 0,
-      "api": "http://qkmp4.cn/api.php/provide/vod/at/xml"
-    },
-    {
-      "key": "藍世資源",
-      "name": "藍世資源",
-      "type": 0,
-      "api": "https://v.sviplan.cn/api.php/provide/vod/at/xml"
-    },
-    {
-      "key": "快看影院",
-      "name": "快看影院",
-      "type": 1,
-      "api": "https://www.vp1127.com/api.php/provide/vod/?ac=list",
-      "playUrl": "https://ss.wyhdj.com/k5/?url="
-    },
-    {
-      "key": "MBO影視",
-      "name": "MBO影視",
-      "type": 0,
-      "api": "https://www.mbomovie.com/api.php/provide/vod/at/xml"
-    },
-    {
-      "key": "網民電影",
-      "name": "網民電影",
-      "type": 0,
-      "api": "https://www.prinevillesda.org/api.php/provide/vod/at/xml"
-    },
-    {
-      "key": "速影",
-      "name": "速影",
-      "type": 0,
-      "api": "https://速影128.xyz/inc/api.php"
-    },
-    {
-      "key": "私人",
-      "name": "私人",
-      "type": 0,
-      "api": "http://107.150.5.146:39000/maccms10-main/api.php/provide/vod/at/xml"
-    },
+    },    
     {
       "key": "飄花電影",
       "name": "飄花電影",
       "type": 0,
       "api": "http://www.zzrhgg.com/api.php/provide/vod/at/xml"
-    },
-    {
-      "key": "樂活影視",
-      "name": "樂活影視",
-      "type": 0,
-      "api": "https://lehootv.com/api.php/provide/vod/at/xml"
-    },
-    {
-      "key": "芒果（限成年人）",
-      "name": "芒果（限成年人）",
-      "type": 0,
-      "api": "https://www.mgav1.cc/api.php/provide/vod/at/xml/",
-      "playUrl": "",
-      "categories": []
-    },
-    {
-      "key": "BT天堂（限成年人）",
-      "name": "BT天堂（限成年人）",
-      "type": 0,
-      "api": "http://bttcj.com/inc/sapi.php",
-      "playUrl": "",
-      "categories": []
     },
     {
       "key": "空白1",
@@ -238,7 +61,23 @@
       "api": "",
       "playUrl": "",
       "categories": []
-    }
+    },
+    {
+      "key": "芒果",
+      "name": "芒果（限成年人）",
+      "type": 0,
+      "api": "https://www.mgav1.cc/api.php/provide/vod/at/xml/",
+      "playUrl": "",
+      "categories": []
+    },
+    {
+      "key": "BT天堂",
+      "name": "BT天堂（限成年人）",
+      "type": 0,
+      "api": "http://bttcj.com/inc/sapi.php",
+      "playUrl": "",
+      "categories": []
+    }    
   ],
   "lives": [
     {
