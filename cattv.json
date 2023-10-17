@@ -4,7 +4,7 @@
       "key": "快播",
       "name": "快播",
       "type": 0,
-      "api": "http://www.kuaibozy.com/api.php/provide/vod/at/xml",
+      "api": "http://www.kuaibozy.com/api.php/provide/vod/",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 0
@@ -25,14 +25,18 @@
     {
       "key": "無盡資源",
       "name": "無盡資源",
-      "type": 0,
-      "api": "https://wujinzy.com/api.php"
+      "type": 1,
+      "api": "https://wujinzy.com/api.php/provide/vod/",
+      "searchable": 1,
+      "quickSearch": 1,
     },    
     {
       "key": "無盡資源2",
       "name": "無盡資源2",
-      "type": 0,
-      "api": "https://wuzy9.com/api.php"
+      "type": 1,
+      "api": "https://wuzy9.com/api.php/provide/vod/",
+      "searchable": 1,
+      "quickSearch": 1,
     }, 
     {
       "key": "酷點資源",
