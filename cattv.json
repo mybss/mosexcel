@@ -26,8 +26,14 @@
       "key": "無盡資源",
       "name": "無盡資源",
       "type": 0,
-      "api": "https://api.wujinzy.com/api.php/provide/vod/"
+      "api": "https://wujinzy.com/api.php"
     },    
+    {
+      "key": "無盡資源2",
+      "name": "無盡資源2",
+      "type": 0,
+      "api": "https://wuzy9.com/api.php"
+    }, 
     {
       "key": "酷點資源",
       "name": "酷點資源",
