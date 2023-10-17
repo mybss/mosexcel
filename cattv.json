@@ -1,14 +1,23 @@
 {
   "sites": [    
     {
-      "key": "快播",
-      "name": "快播",
+      "key": "麒麟資源",
+      "name": "麒麟資源",
       "type": 0,
-      "api": "http://www.kuaibozy.com/api.php/provide/vod/at/xml/",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 0
-    },    
+      "api": "https://www.qilinzyz.com/api.php/provide/vod/?ac=list"
+    },   
+    {
+      "key": "kuaibozy資源",
+      "name": "kuaibozy資源",
+      "type": 0,
+      "api": "http://www.kuaibozy.com/api.php/provide/vod/from/kbm3u8/at/xml/"      
+    },
+    {
+      "key": "8090資源",
+      "name": "8090資源",
+      "type": 0,
+      "api": "http://zy.yilans.net:8090/api.php/provide/vod/?ac=list"      
+    },
     {
       "key": "39影視",
       "name": "39影視",
@@ -26,18 +35,20 @@
       "key": "無盡資源",
       "name": "無盡資源",
       "type": 0,
-      "api": "https://wujinzy.com/api.php/provide/vod/",
-      "searchable": 1,
-      "quickSearch": 1
-    },    
+      "api": "https://api.wujinapi.com/api.php/provide/vod/?ac=list"
+    },
     {
-      "key": "無盡資源2",
-      "name": "無盡資源2",
+      "key": "番茄資源",
+      "name": "番茄資源",
       "type": 0,
-      "api": "https://wuzy9.com/api.php/provide/vod/",
-      "searchable": 1,
-      "quickSearch": 1
-    }, 
+      "api": "http://api.fqzy.cc/api.php/provide/vod/?ac=list"
+    },
+    {
+      "key": "百度雲資源",
+      "name": "百度雲資源",
+      "type": 0,
+      "api": "https://api.apibdzy.com/api.php/provide/vod/?ac=list"
+    },
     {
       "key": "酷點資源",
       "name": "酷點資源",
