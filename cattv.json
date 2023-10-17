@@ -28,7 +28,7 @@
       "type": 1,
       "api": "https://wujinzy.com/api.php/provide/vod/",
       "searchable": 1,
-      "quickSearch": 1,
+      "quickSearch": 1
     },    
     {
       "key": "無盡資源2",
@@ -36,7 +36,7 @@
       "type": 1,
       "api": "https://wuzy9.com/api.php/provide/vod/",
       "searchable": 1,
-      "quickSearch": 1,
+      "quickSearch": 1
     }, 
     {
       "key": "酷點資源",
