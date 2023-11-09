@@ -22,10 +22,10 @@
 {"key":"空白2","name":"空白2","type": 0,"api": "","playUrl": "","categories": []},
 {"key":"空白3","name":"空白3","type": 0,"api": "","playUrl": "","categories": []},
 {"key":"易看資源","name":"易看資源+","type":1,"api":"https://api.yikanapi.com/api.php/provide/vod/","searchable":1,"quickSearch":1},
-{"key":"桃色资源","name":"桃色资源+","type":1,"https://api.taoseapi.com/api.php/provide/vod/","searchable":1,"quickSearch":1},
-{"key":"色猫资源","name":"色猫资源+","type":1,"api":"https://api.maozyapi.com/inc/api.php","searchable":1,"quickSearch":1},
-{"key":"秀色资源","name":"秀色资源+","type":1,"api":"https://api.xiuseapi.com/api.php/provide/vod/","searchable":1,"quickSearch":1},
-{"key":"佳丽资源","name":"佳丽资源+","type":1,"api":"https://api.jializyzapi.com/inc/api.php","searchable":1,"quickSearch":1},
+{"key":"桃色资源","name":"桃色资源+","type":1,"https://api.taoseapi.com/api.php/provide/vod/"},
+{"key":"色猫资源","name":"色猫资源+","type":1,"api":"https://api.maozyapi.com/inc/api.php"},
+{"key":"秀色资源","name":"秀色资源+","type":1,"api":"https://api.xiuseapi.com/api.php/provide/vod/"},
+{"key":"佳丽资源","name":"佳丽资源+","type":1,"api":"https://api.jializyzapi.com/inc/api.php"},
 {"key":"BT天堂","name":"BT天堂+","type":0,"api":"http://bttcj.com/inc/sapi.php","searchable":1,"quickSearch":1} ],
   "lives": [
     {
