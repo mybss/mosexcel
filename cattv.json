@@ -1,21 +1,36 @@
 {
   "sites": [
-    {"key": "39影視","name": "39影視","type": 1,"api": "https://www.39kan.com/api.php/provide/vod/at/xml/","playUrl": "http://jx.hao-zsj.cn/vip/?url=","searchable":1,"quickSearch":1},    
-    {"key": "臥龍資源","name": "臥龍資源","type": 1,"api": "https://www.wolongzyw.com/api.php/provide/vod/at/xml","searchable":1,"quickSearch":1},
-    {"key": "無盡資源","name": "無盡資源","type": 1,"api": "https://api.wujinapi.net/api.php/provide/vod/","searchable":1,"quickSearch":1},
-{"key":"天堂资源","name":"天堂资源(官)","type":1,"api":"http://vipmv.cc/api.php/provide/vod/","searchable":1,"quickSearch":1},
-{"key":"小猫咪","name":"小猫咪(官)","type":1,"api":"http://zy.xiaomaomi.cc/api.php/provide/vod/","playUrl":"http://xiaomaomi.cc/player/?url=","searchable":1,"quickSearch":1},
-{"key":"1080资源库","name":"1080资源库(切)","type":1,"api":"https://api.1080zyku.com/inc/api_mac10.php","searchable":0,"quickSearch":0},
-{"key":"快车资源","name":"快车资源(切)","type":1,"api":"https://caiji.kczyapi.com/api.php/provide/vod/","searchable":1,"quickSearch":1},
-{"key":"量子资源","name":"量子资源(切)","type":1,"api":"http://cj.lziapi.com/api.php/provide/vod/","searchable":1,"quickSearch":1},
-{"key":"红牛资源","name":"红牛资源(切)","type":1,"api":"https://www.hongniuzy2.com/api.php/provide/vod/","searchable":1,"quickSearch":1},
-{"key":"闪电资源","name":"闪电资源(切)","type":1,"api":"http://sdzyapi.com/api.php/provide/vod/","searchable":1,"quickSearch":1},
-{"key":"光速资源","name":"光速资源(切)","type":1,"api":"https://api.guangsuapi.com/api.php/provide/vod/","searchable":1,"quickSearch":1},
-{"key":"新浪资源","name":"新浪资源(切)","type":1,"api":"http://api.xinlangapi.com/xinlangapi.php/provide/vod/","searchable":1,"quickSearch":1},
-{"key":"77韩剧","name":"77韩剧(切)","type":1,"api":"https://www.77hanju.com/api.php/provide/vod/","searchable":1,"quickSearch":1},
-{"key":"天空资源","name":"天空资源(切)","type":1,"api":"https://api.tiankongapi.com/api.php/provide/vod/","searchable":1,"quickSearch":1},
-{"key":"龙腾资源","name":"龙腾资源(优)","type":1,"api":"http://175.178.7.35:2020/api.php/provide/vod/","searchable":1,"quickSearch":1},
+{"key":"39影視","name":"39影視","type":1,"api":"https://www.39kan.com/api.php/provide/vod/at/xml/","playUrl":"http://jx.hao-zsj.cn/vip/?url=","searchable":1,"quickSearch":1},
+{"key":"臥龍資源","name":"臥龍資源","type":1,"api":"https://www.wolongzyw.com/api.php/provide/vod/at/xml","searchable":1,"quickSearch":1},
+{"key":"無盡資源","name":"無盡資源","type":1,"api":"https://api.wujinapi.net/api.php/provide/vod/","searchable":1,"quickSearch":1},
+{"key":"天堂資源","name":"天堂資源(官)","type":1,"api":"http://vipmv.cc/api.php/provide/vod/","searchable":1,"quickSearch":1},
+{"key":"小貓咪","name":"小貓咪(官)","type":1,"api":"http://zy.xiaomaomi.cc/api.php/provide/vod/","playUrl":"http://xiaomaomi.cc/player/?url=","searchable":1,"quickSearch":1},
+{"key":"1080資源庫","name":"1080資源庫(切)","type":1,"api":"https://api.1080zyku.com/inc/api_mac10.php","searchable":0,"quickSearch":0},
+{"key":"快車資源","name":"快車資源(切)","type":1,"api":"https://caiji.kczyapi.com/api.php/provide/vod/","searchable":1,"quickSearch":1},
+{"key":"量子資源","name":"量子資源(切)","type":1,"api":"http://cj.lziapi.com/api.php/provide/vod/","searchable":1,"quickSearch":1},
+{"key":"紅牛資源","name":"紅牛資源(切)","type":1,"api":"https://www.hongniuzy2.com/api.php/provide/vod/","searchable":1,"quickSearch":1},
+{"key":"閃電資源","name":"閃電資源(切)","type":1,"api":"http://sdzyapi.com/api.php/provide/vod/","searchable":1,"quickSearch":1},
+{"key":"光速資源","name":"光速資源(切)","type":1,"api":"https://api.guangsuapi.com/api.php/provide/vod/","searchable":1,"quickSearch":1},
+{"key":"新浪資源","name":"新浪資源(切)","type":1,"api":"http://api.xinlangapi.com/xinlangapi.php/provide/vod/","searchable":1,"quickSearch":1},
+{"key":"77韓劇","name":"77韓劇(切)","type":1,"api":"https://www.77hanju.com/api.php/provide/vod/","searchable":1,"quickSearch":1},
+{"key":"天空資源","name":"天空資源(切)","type":1,"api":"https://api.tiankongapi.com/api.php/provide/vod/","searchable":1,"quickSearch":1},
+{"key":"龍騰資源","name":"龍騰資源(優)","type":1,"api":"http://175.178.7.35:2020/api.php/provide/vod/","searchable":1,"quickSearch":1},
 
+{"key":"極品影視","name": "極品影視","api": "https://www.jpysvip.net/api.php/provide/vod/at/xml/","searchable":1,"quickSearch":1},
+{"key":"2K資源","name": "2K資源","api": "http://2kzyz.com/api.php/provide/vod/at/xml/","searchable":1,"quickSearch":1},
+{"key":"小蜻蜓APP","name": "小蜻蜓APP","api": "http://3ketv.com/api.php/provide/vod/","searchable":1,"quickSearch":1},
+{"key":"番茄資源","name": "番茄資源","api": "http://api.fqzy.cc/api.php/provide/vod/at/xml/","playUrl":"https://dp.8b5q.cn/dplayer/?url=","searchable":1,"quickSearch":1},
+{"key":"暢視影視","name": "暢視影視","api": "http://app.reboju.net/api.php/provide/vod/","searchable":1,"quickSearch":1},
+{"key":"追劇吧APP","name": "追劇吧APP","api": "http://data.zju8.cc:1234/api.php/provide/vod/","searchable":1,"quickSearch":1},
+{"key":"真不卡","name": "真不卡","api": "http://db.taijuwang.cc/api.php/provide/vod/","searchable":1,"quickSearch":1},
+{"key":"飯團影視","name": "飯團影視","api": "http://fantuan.wkfile.com/api.php/provide/vod/","searchable":1,"quickSearch":1},
+{"key":"竹嘎(藍光解析)","name": "竹嘎(藍光解析)","api": "http://m.ycccyk.cn/api.php/provide/vod/","searchable":1,"quickSearch":1},
+{"key":"愛看","name": "愛看","api": "http://tvcms.ikan6.vip/api.php/provide/vod/","searchable":1,"quickSearch":1},
+{"key":"U貓m3u8","name": "U貓m3u8","api": "http://umao.ml/api.php/provide/vod/","searchable":1,"quickSearch":1},
+{"key":"愛看啦","name": "愛看啦","api": "http://v.aik.la/api.php/provide/vod/","searchable":1,"quickSearch":1},
+{"key":"白嫖資源","name": "白嫖資源","api": "http://www.baipiaozy.com/api.php/provide/vod/","searchable":1,"quickSearch":1},
+{"key":"泡泡影視","name": "泡泡影視","api": "http://www.chinaboshan.com/api.php/provide/vod/","searchable":1,"quickSearch":1},
+{"key":"TVB雲播","name": "TVB雲播","api": "http://www.tvyb02.com/api.php/provide/vod/","searchable":1,"quickSearch":1},
     {
       "key": "酷點資源",
       "name": "酷點資源",
@@ -50,7 +65,7 @@
       "playUrl": "",
       "categories": []
     },
-    {"key":"易看资源","name":"易看资源(切)","type":1,"api":"https://api.yikanapi.com/api.php/provide/vod/","searchable":1,"quickSearch":1},
+    {"key":"易看資源","name":"易看資源(切)","type":1,"api":"https://api.yikanapi.com/api.php/provide/vod/","searchable":1,"quickSearch":1},
     {"key": "芒果","name": "芒果","type": 0,"api": "https://www.mgav1.cc/api.php/provide/vod/at/xml/","playUrl": "","categories": []},
     {"key": "BT天堂","name": "BT天堂","type": 0,"api": "http://bttcj.com/inc/sapi.php","playUrl": "","categories": []} ],
   "lives": [
@@ -1040,7 +1055,7 @@
       ]
     },
     {
-      "group": "港台",
+      "group": "港臺",
       "channels": [
         {
           "name": "鳳凰衛視",
@@ -1410,7 +1425,7 @@
       ]
     },
     {
-      "group": "港台2",
+      "group": "港臺2",
       "channels": [        
         {
           "name": "TVBS新聞",
@@ -1558,7 +1573,7 @@
           ]
         },
         {
-          "name": "李連杰",
+          "name": "李連傑",
           "urls": [
             "http://vip.auney.cn/api/huya.php?id=11342390"
           ]
@@ -1870,7 +1885,7 @@
       "url": "https://json.pangujiexi.com:12345/json.php?url="
     },
     {
-      "name": "觔斗雲",
+      "name": "觔鬥雲",
       "type": 1,
       "url": "https://api.m3u8.tv:5678/home/api?type=ys&uid=1494542&key=ijmqvwxABEHILMOT48&url="
     },
@@ -2000,7 +2015,7 @@
       "url": "https://fast.rongxingvr.cn:8866/api/?key=rmxOw7BpINuGIyWQng&url="
     },
     {
-      "name": "觔斗雲1",
+      "name": "觔鬥雲1",
       "type": 1,
       "url": "https://fast.rongxingvr.cn:8866/api/?key=nrR7koAyq9ajKId4nC&url="
     },
@@ -2082,7 +2097,7 @@
       "url": "https://z1.m1907.cn/?jx="
     },
     {
-      "name": "高速接口1",
+      "name": "高速介面1",
       "url": "https://jsap.attakids.com/?url="
     },
     {
@@ -2344,7 +2359,7 @@
       "url": "https://vip.cjys.top/?url="
     },
     {
-      "name": "盤古云",
+      "name": "盤古雲",
       "url": "https://go.yh0523.cn/y.cy?url="
     },
     {
@@ -2394,7 +2409,7 @@
       "url": "https://titan.mgtv.com.o8tv.com/jiexi/?url="
     },
     {
-      "name": "高速接口1",
+      "name": "高速介面1",
       "url": "https://jsap.attakids.com/?url="
     },
     {
@@ -2876,7 +2891,7 @@
       "url": "http://jx.rdhk.net/?v="
     },
     {
-      "name": "智能接口",
+      "name": "智慧介面",
       "url": "http://jiexi.30dian.cn/?url="
     },
     {
