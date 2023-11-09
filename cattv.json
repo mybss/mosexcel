@@ -1,6 +1,6 @@
 {
 "sites": [
-{"key":"39影視","name":"39影視","type":1,"api":"https://www.39kan.com/api.php/provide/vod/","searchable":1,"quickSearch":1},
+{"key":"39影視","name":"39影視","type":0,"api":"https://www.39kan.com/api.php/provide/vod/at/xml"},
 {"key":"臥龍資源","name":"臥龍資源","type":1,"api":"https://www.wolongzyw.com/api.php/provide/vod/","searchable":1,"quickSearch":1},
 {"key":"無盡資源","name":"無盡資源","type":1,"api":"https://api.wujinapi.net/api.php/provide/vod/","searchable":1,"quickSearch":1},
 {"key":"天堂資源","name":"天堂資源(官)","type":1,"api":"http://vipmv.cc/api.php/provide/vod/","searchable":1,"quickSearch":1},
@@ -15,7 +15,7 @@
 {"key":"77韓劇","name":"77韓劇(切)","type":1,"api":"https://www.77hanju.com/api.php/provide/vod/","searchable":1,"quickSearch":1},
 {"key":"天空資源","name":"天空資源(切)","type":1,"api":"https://api.tiankongapi.com/api.php/provide/vod/","searchable":1,"quickSearch":1},
 {"key":"龍騰資源","name":"龍騰資源(優)","type":1,"api":"http://175.178.7.35:2020/api.php/provide/vod/","searchable":1,"quickSearch":1},
-{"key":"酷點資源","name":"酷點資源","type":0,"api":"https://kudian8.com/api.php/provide/vod/"},
+{"key":"优酷会员","name":"优酷会员","type":0,"api":"http://api.000zy.com/provide/vod/from/youku/at/xml/"},
 {"key":"lehoo資源","name":"lehoo資源","type":1,"api":"https://www.lehootv.com/api.php/provide/vod/","searchable":1,"quickSearch":1},
 {"key":"飄花電影","name":"飄花電影","type":0,"api":"http://www.zzrhgg.com/api.php/provide/vod/"},
 {"key":"空白1","name":"空白1","type": 0,"api": "","playUrl": "","categories": []},
