@@ -1,25 +1,8 @@
 {
   "sites": [
-    {
-      "key": "39影視",
-      "name": "39影視",
-      "type": 0,
-      "api": "https://www.39kan.com/api.php/provide/vod/at/xml/",
-      "playUrl": "http://jx.hao-zsj.cn/vip/?url="
-    },    
-    {
-      "key": "臥龍資源",
-      "name": "臥龍資源",
-      "type": 0,
-      "api": "https://www.wolongzyw.com/api.php/provide/vod/at/xml"
-    },
-    {
-      "key": "無盡資源",
-      "name": "無盡資源",
-      "type": 1,
-      "api": "https://api.wujinapi.net/api.php/provide/vod/",
-      "searchable":1,"quickSearch":1
-    },
+    {"key": "39影視","name": "39影視","type": 1,"api": "https://www.39kan.com/api.php/provide/vod/at/xml/","playUrl": "http://jx.hao-zsj.cn/vip/?url=","searchable":1,"quickSearch":1},    
+    {"key": "臥龍資源","name": "臥龍資源","type": 1,"api": "https://www.wolongzyw.com/api.php/provide/vod/at/xml","searchable":1,"quickSearch":1},
+    {"key": "無盡資源","name": "無盡資源","type": 1,"api": "https://api.wujinapi.net/api.php/provide/vod/","searchable":1,"quickSearch":1},
 {"key":"天堂资源","name":"天堂资源(官)","type":1,"api":"http://vipmv.cc/api.php/provide/vod/","searchable":1,"quickSearch":1},
 {"key":"小猫咪","name":"小猫咪(官)","type":1,"api":"http://zy.xiaomaomi.cc/api.php/provide/vod/","playUrl":"http://xiaomaomi.cc/player/?url=","searchable":1,"quickSearch":1},
 {"key":"1080资源库","name":"1080资源库(切)","type":1,"api":"https://api.1080zyku.com/inc/api_mac10.php","searchable":0,"quickSearch":0},
