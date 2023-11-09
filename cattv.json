@@ -22,8 +22,8 @@
 {"key":"空白2","name":"空白2","type": 0,"api": "","playUrl": "","categories": []},
 {"key":"空白3","name":"空白3","type": 0,"api": "","playUrl": "","categories": []},
 {"key":"易看資源","name":"易看資源(切)","type":1,"api":"https://api.yikanapi.com/api.php/provide/vod/","searchable":1,"quickSearch":1},
-{"key":"芒果","name":"芒果","type":1,"api":"https://www.mgav1.cc/api.php/provide/vod/","searchable":1,"quickSearch":1},
-{"key":"BT天堂","name":"BT天堂","type":1,"api":"http://bttcj.com/inc/sapi.php","searchable":1,"quickSearch":1} ],
+{"key":"芒果","name":"芒果","type":0,"api":"https://www.mgav1.cc/api.php/provide/vod/","searchable":1,"quickSearch":1},
+{"key":"BT天堂","name":"BT天堂","type":0,"api":"http://bttcj.com/inc/sapi.php","searchable":1,"quickSearch":1} ],
   "lives": [
     {
       "group": "自定義",
