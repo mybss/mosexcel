@@ -1131,13 +1131,22 @@
     {
       "group": "港臺2",
       "channels": [        
-        {
-          "name": "TVBS新聞",
-          "urls": [
-            "rtmp://161.202.204.248/sat/tv551",
-            "rtmp://161.202.204.248/sat/tv552"
-          ]
-        }, 
+        {"name": "TVBS NEWS LIVE","urls": ["https://www.youtube.com/watch?v=m_dhMSvUCIc"]},
+        {"name": "TVBS新聞","urls": ["https://www.youtube.com/watch?v=2mCSYvcfhtc"]},
+        {"name": "華視","urls": ["https://www.youtube.com/watch?v=wM0g8EoUZ_E"]},
+        {"name": "民視","urls": ["https://www.youtube.com/watch?v=ylYJSBUgaMA"]},
+        {"name": "台視","urls": ["https://www.youtube.com/watch?v=xL0ch83RAK8"]},
+        {"name": "中視","urls": ["https://www.youtube.com/watch?v=TCnaIE_SAtM"]},
+        {"name": "寰宇全球新聞","urls": ["https://www.youtube.com/watch?v=DDvdmzvaNJs"]},
+        {"name": "寰宇新聞","urls": ["https://www.youtube.com/watch?v=B7Zp3d6xXWw"]},
+        {"name": "鏡新聞","urls": ["https://www.youtube.com/watch?v=5n0y6b0Q25o"]},
+        {"name": "東森Live","urls": ["https://www.youtube.com/watch?v=R2iMq5LKXco"]},
+        {"name": "東森新闻","urls": ["https://www.youtube.com/watch?v=khuZW5GdBXo"]},
+        {"name": "中天新聞1台","urls": ["https://www.youtube.com/watch?v=oIgbl7t0S_w"]},
+        {"name": "中天新聞2台","urls": ["https://www.youtube.com/watch?v=WPfPjbOLNfE"]},
+        {"name": "三立live","urls": ["https://www.youtube.com/watch?v=FoBfXvlOR6I"]},
+        {"name": "三立inews","urls": ["https://www.youtube.com/watch?v=CKjSm5ZeehE"]},
+        {"name": "三立NEWS+","urls": ["https://www.youtube.com/watch?v=oZdzzvxTfUY"]},
         {
           "name": "龍祥電影",
           "urls": [
@@ -1173,36 +1182,7 @@
           "urls": [
             "https://www.chaojidianshi.net/nzbtv/ldlive.php?id=hkj22"
           ]
-        },
-        {
-          "name": "華視",
-          "urls": [
-            "http://50.7.61.147:30080/Entry/cts",
-            "rtmp://59.124.75.136/sat/tv111"
-          ]
-        },
-        {
-          "name": "民視",
-          "urls": [
-            "http://50.7.61.147:30080/Entry/ftv",
-            "rtmp://59.124.75.136/sat/tv051"
-          ]
-        },
-        {
-          "name": "台視",
-          "urls": [
-            "rtmp://161.202.204.248/sat/tv071",
-            "http://50.7.61.148:30080/Entry/ttv",
-            "rtmp://59.124.75.136/sat/tv071"
-          ]
-        },
-        {
-          "name": "中視",
-          "urls": [
-            "http://50.7.61.148:30080/Entry/ctv",
-            "rtmp://59.124.75.136/sat/tv091"
-          ]
-        },
+        },        
         {
           "name": "全佳",
           "urls": [
