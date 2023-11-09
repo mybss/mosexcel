@@ -1,5 +1,5 @@
 {
-  "sites": [
+"sites": [
 {"key":"39影視","name":"39影視","type":1,"api":"https://www.39kan.com/api.php/provide/vod/at/xml/","playUrl":"http://jx.hao-zsj.cn/vip/?url=","searchable":1,"quickSearch":1},
 {"key":"臥龍資源","name":"臥龍資源","type":1,"api":"https://www.wolongzyw.com/api.php/provide/vod/","searchable":1,"quickSearch":1},
 {"key":"無盡資源","name":"無盡資源","type":1,"api":"https://api.wujinapi.net/api.php/provide/vod/","searchable":1,"quickSearch":1},
@@ -15,28 +15,15 @@
 {"key":"77韓劇","name":"77韓劇(切)","type":1,"api":"https://www.77hanju.com/api.php/provide/vod/","searchable":1,"quickSearch":1},
 {"key":"天空資源","name":"天空資源(切)","type":1,"api":"https://api.tiankongapi.com/api.php/provide/vod/","searchable":1,"quickSearch":1},
 {"key":"龍騰資源","name":"龍騰資源(優)","type":1,"api":"http://175.178.7.35:2020/api.php/provide/vod/","searchable":1,"quickSearch":1},
-{"key": "酷點資源","name": "酷點資源","type":1,"api": "https://kudian8.com/api.php/provide/vod/","searchable":1,"quickSearch":1},
-{"key": "lehoo資源","name": "lehoo資源","type":1,"api": "https://www.lehootv.com/api.php/provide/vod/","searchable":1,"quickSearch":1},
-{"key": "飄花電影","name": "飄花電影","type":1,"api": "http://www.zzrhgg.com/api.php/provide/vod/","searchable":1,"quickSearch":1},
-{
-      "key": "空白1",
-      "name": "空白1",
-      "type": 0,
-      "api": "",
-      "playUrl": "",
-      "categories": []
-    },
-    {
-      "key": "空白2",
-      "name": "空白2",
-      "type": 0,
-      "api": "",
-      "playUrl": "",
-      "categories": []
-    },
-    {"key":"易看資源","name":"易看資源(切)","type":1,"api":"https://api.yikanapi.com/api.php/provide/vod/","searchable":1,"quickSearch":1},
-    {"key": "芒果","name": "芒果","type": 1,"api": "https://www.mgav1.cc/api.php/provide/vod/at/xml/","searchable":1,"quickSearch":1},
-    {"key": "BT天堂","name": "BT天堂","type": 1,"api": "http://bttcj.com/inc/sapi.php","searchable":1,"quickSearch":1} ],
+{"key":"酷點資源","name":"酷點資源","type":1,"api":"https://kudian8.com/api.php/provide/vod/","searchable":1,"quickSearch":1},
+{"key":"lehoo資源","name":"lehoo資源","type":1,"api":"https://www.lehootv.com/api.php/provide/vod/","searchable":1,"quickSearch":1},
+{"key":"飄花電影","name":"飄花電影","type":1,"api":"http://www.zzrhgg.com/api.php/provide/vod/","searchable":1,"quickSearch":1},
+{"key":"空白1","name":"空白1","type": 0,"api": "","playUrl": "","categories": []},
+{"key":"空白2","name":"空白2","type": 0,"api": "","playUrl": "","categories": []},
+{"key":"空白3","name":"空白3","type": 0,"api": "","playUrl": "","categories": []},
+{"key":"易看資源","name":"易看資源(切)","type":1,"api":"https://api.yikanapi.com/api.php/provide/vod/","searchable":1,"quickSearch":1},
+{"key":"芒果","name":"芒果","type":1,"api":"https://www.mgav1.cc/api.php/provide/vod/at/xml/","searchable":1,"quickSearch":1},
+{"key":"BT天堂","name":"BT天堂","type":1,"api":"http://bttcj.com/inc/sapi.php","searchable":1,"quickSearch":1} ],
   "lives": [
     {
       "group": "自定義",
