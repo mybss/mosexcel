@@ -776,23 +776,8 @@
     {
       "group": "港臺",
       "channels": [
-        {
-          "name": "鳳凰衛視",
-          "urls": [
-            "http://117.169.124.37:6610/ysten-businessmobile/live/fhchinese/1.m3u8",
-            "http://223.110.235.3/ott.js.chinamobile.com/PLTV/3/224/3221228057/index.m3u8",
-            "http://223.110.236.2/ott.js.chinamobile.com/PLTV/3/224/3221228060/index.m3u8",
-            "http://183.207.249.35/PLTV/3/224/3221226975/index.m3u8"
-          ]
-        },
-        {
-          "name": "鳳凰資訊",
-          "urls": [
-            "http://223.110.235.13/ott.js.chinamobile.com/PLTV/3/224/3221228098/index.m3u8",
-            "http://117.169.124.37:6610/ysten-businessmobile/live/fhzixun/1.m3u8",
-            "http://183.207.249.35/PLTV/3/224/3221226923/index.m3u8"
-          ]
-        },
+        {"name": "鳳凰衛視","urls": ["https://www.youtube.com/watch?v=if6yQq_JJyY"]},
+        {"name": "鳳凰資訊","urls": ["https://www.youtube.com/watch?v=dmDg7NfUoSw"]},
         {
           "name": "天映經典",
           "urls": [
