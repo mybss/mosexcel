@@ -1,6 +1,6 @@
 {
 "sites": [
-{"key":"39影視","name":"39影視","type":1,"api":"https://www.39kan.com/api.php/provide/vod/at/xml/","playUrl":"http://jx.hao-zsj.cn/vip/?url=","searchable":1,"quickSearch":1},
+{"key":"39影視","name":"39影視","type":1,"api":"https://www.39kan.com/api.php/provide/vod/","playUrl":"http://jx.hao-zsj.cn/vip/?url=","searchable":1,"quickSearch":1},
 {"key":"臥龍資源","name":"臥龍資源","type":1,"api":"https://www.wolongzyw.com/api.php/provide/vod/","searchable":1,"quickSearch":1},
 {"key":"無盡資源","name":"無盡資源","type":1,"api":"https://api.wujinapi.net/api.php/provide/vod/","searchable":1,"quickSearch":1},
 {"key":"天堂資源","name":"天堂資源(官)","type":1,"api":"http://vipmv.cc/api.php/provide/vod/","searchable":1,"quickSearch":1},
