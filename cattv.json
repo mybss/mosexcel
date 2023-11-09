@@ -15,7 +15,6 @@
 {"key":"77韓劇","name":"77韓劇(切)","type":1,"api":"https://www.77hanju.com/api.php/provide/vod/","searchable":1,"quickSearch":1},
 {"key":"天空資源","name":"天空資源(切)","type":1,"api":"https://api.tiankongapi.com/api.php/provide/vod/","searchable":1,"quickSearch":1},
 {"key":"龍騰資源","name":"龍騰資源(優)","type":1,"api":"http://175.178.7.35:2020/api.php/provide/vod/","searchable":1,"quickSearch":1},
-
 {"key":"極品影視","name": "極品影視","type":1,"api": "https://www.jpysvip.net/api.php/provide/vod/at/xml/","searchable":1,"quickSearch":1},
 {"key":"2K資源","name": "2K資源","type":1,"api": "http://2kzyz.com/api.php/provide/vod/at/xml/","searchable":1,"quickSearch":1},
 {"key":"小蜻蜓APP","name": "小蜻蜓APP","type":1,"api": "http://3ketv.com/api.php/provide/vod/","searchable":1,"quickSearch":1},
