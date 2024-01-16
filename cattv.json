@@ -14,6 +14,8 @@
 {"key":"賤賤","name":"🐭賤賤┃p2p","type":3,"searchable":1,"quickSearch":1,"changeable":1,"playerType":"1","api":"https://agit.ai/fantaiying/fty/raw/branch/master/ext/drpy2.min.js","ext":"https://agit.ai/fantaiying/fty/raw/branch/master/ext/jp.js"},
 {"key":"虎牙直播js","name":"🐯虎牙┃直播","type":3,"api":"https://agit.ai/fantaiying/fty/raw/branch/master/ext/drpy2.min.js","ext":"https://agit.ai/fantaiying/dr_py/raw/branch/main/js/虎牙直播.js","style":{"type":"rect","ratio":1.755},"searchable":0,"quickSearch":0,"changeable":0},
 {"key":"haiwaikan","name":"海外看","type":1,"api":"https://haiwaikan.com/api.php/provide/vod","searchable":1},
+  {"key":"drpy_js_奇珍异兽","name":"👑艺艺官源👑","type":3,"playerType":2,
+"api":"https://jihulab.com/ymz1231/lib/-/raw/main/drpy2.min.js","ext":"https://jihulab.com/ymz1231/js/-/raw/main/%E5%A5%87%E7%8F%8D%E5%BC%82%E5%85%BD.js"},
 {"key":"空白1","name":"空白1","type": 0,"api": "","playUrl": "","categories": []},
 {"key":"空白2","name":"空白2","type": 0,"api": "","playUrl": "","categories": []},
 {"key":"空白3","name":"空白3","type": 0,"api": "","playUrl": "","categories": []},
