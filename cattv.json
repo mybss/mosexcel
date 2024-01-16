@@ -1,4 +1,6 @@
 {
+"spider": "https://mybss.github.io/mosexcel/custom_spider.jar",
+"spider": "https://mybss.github.io/mosexcel/xBPQ.jar",
 "sites": [
 {"key":"39影視","name":"39影視","type":0,"api":"https://www.39kan.com/api.php/provide/vod/at/xml"},
 {"key":"臥龍資源","name":"臥龍資源","type":1,"api":"https://www.wolongzyw.com/api.php/provide/vod/","searchable":1,"quickSearch":1},
@@ -1520,8 +1522,7 @@
       ]
     }
   ],
-  "spider": "https://mybss.github.io/mosexcel/custom_spider.jar",
-  "parses": [
+ "parses": [
     {
       "name": "預設解析",
       "url": "https://1.api.80tvs.cn/?url="
