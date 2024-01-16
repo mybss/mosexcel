@@ -12,6 +12,7 @@
 {"key":"新浪資源","name":"新浪資源(切)","type":1,"api":"http://api.xinlangapi.com/xinlangapi.php/provide/vod/","searchable":1,"quickSearch":1},
 {"key":"天空資源","name":"天空資源(切)","type":1,"api":"https://api.tiankongapi.com/api.php/provide/vod/","searchable":1,"quickSearch":1},
 {"key":"火狐","name":"🦊茶杯狐","type":1,"api":"https://hhzyapi.com/api.php/provide/vod/","searchable":1,"quickSearch":1},
+{"key":"49zy","name":"49Z｜影視","type":1,"api":"https://49zyw.com/api.php/provide/vod/?ac=list","searchable":1,"quickSearch":1,"filterable":1,"changeable":1,"categories":["國產劇","紀錄片","歐美劇","香港劇","動作片","愛情片","科幻片","恐怖片","劇情片","戰爭片","喜劇片","動畫片","犯罪片","韓國劇","動漫","電影","大陸綜藝","港臺綜藝","日韓綜藝","歐美綜藝","臺灣劇","國產動漫","日本動漫","歐美動漫","泰京劇","日劇","電影解說","奇幻片","災難片","懸疑片","其他片","體育賽事","海外劇"]},
 {"key":"空白1","name":"空白1","type": 0,"api": "","playUrl": "","categories": []},
 {"key":"空白2","name":"空白2","type": 0,"api": "","playUrl": "","categories": []},
 {"key":"空白3","name":"空白3","type": 0,"api": "","playUrl": "","categories": []},
