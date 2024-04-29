@@ -20,7 +20,8 @@
 {"key":"空白2","name":"空白2","type": 0,"api": "","playUrl": "","categories": []},
 {"key":"空白3","name":"空白3","type": 0,"api": "","playUrl": "","categories": []},
 {"key":"易看資源","name":"易看資源+","type":1,"api":"https://api.yikanapi.com/api.php/provide/vod/","searchable":1,"quickSearch":1},
-{"key":"BT天堂","name":"BT天堂+","type":0,"api":"http://bttcj.com/inc/sapi.php"}
+{"key":"BT天堂","name":"BT天堂+","type":0,"api":"http://bttcj.com/inc/sapi.php"},
+{"key":"KpgxdyE","name":"黄AV资源","type":0,"api":"https://www.pgxdy.com/api/xml.php"}
 ],
   "lives": [
     {
