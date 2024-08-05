@@ -148,6 +148,14 @@
       "type": 1,
       "api": "https://hghhh.com/api.php/provide/vod/",
       "searchable": 1
+    },
+    {
+      "key":"奧斯卡資源",
+      "name":"奧斯卡資源",
+      "type":1,
+      "api":"https://aosikazy.com/api.php/provide/vod/?ac=list",
+      "searchable":1,
+      "quickSearch":1
     }
   ],
   "lives": [
