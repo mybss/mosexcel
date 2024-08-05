@@ -11,13 +11,13 @@
 {"key":"紅牛資源","name":"紅牛資源(切)","type":1,"api":"https://www.hongniuzy2.com/api.php/provide/vod/","searchable":1,"quickSearch":1},
 {"key":"閃電資源","name":"閃電資源(切)","type":1,"api":"http://sdzyapi.com/api.php/provide/vod/","searchable":1,"quickSearch":1},
 {"key":"光速資源","name":"光速資源(切)","type":1,"api":"https://api.guangsuapi.com/api.php/provide/vod/","searchable":1,"quickSearch":1},
-{"key":"新浪資源","name":"新浪資源(切)","type":1,"api":"http://api.xinlangapi.com/xinlangapi.php/provide/vod/","searchable":1,"quickSearch":1},
+{"key":"csp_biubiu_大象TV","name":"大象TV","type":3,"api":"csp_XBiubiu","searchable":1,"quickSearch":1,"filterable":0,"ext":"https://pan.bilnn.com/api/v3/file/sourcejump/r4mrBmUe/hQZb7LnK34ZRBqFil90x8bYr_E1WcLBHm0T5gO_k_9o*"},
 {"key":"天空資源","name":"天空資源(切)","type":1,"api":"https://api.tiankongapi.com/api.php/provide/vod/","searchable":1,"quickSearch":1},
-{"key":"獨播庫","name":"獨播庫","type":1,"api":"https://www.duboku.tv/api.php/provide/vod","searchable":1},
-{"key":"xgcartoon","name":"西瓜卡通","type":1,"api":"https://www.xgcartoon.com/api.php/provide/vod/","searchable":1},
-{"key":"歐樂影院","name":"歐樂影院","type":1,"api":"https://www.olevod.com//api.php/provide/vod/","searchable":1},
-{"key":"蠟筆網盤","name":"蠟筆網盤","type":1,"api":"http://duopan.fun///api.php/provide/vod/","searchable":1},
-{"key":"空白2","name":"空白2","type": 0,"api": "","playUrl": "","categories": []},
+{"key":"兒童","name":"Bili兒童","type":3,"api":"csp_Bili","searchable":0,"quickSearch":0,"filterable":1,"ext":"https://gitlab.com/duomv/duo/-/raw/main/Bili/%E5%84%BF%E7%AB%A5%E4%B9%90%E5%9B%AD.json"},
+{"key":"學習","name":"Bili學習","type":3,"api":"csp_Bili","searchable":0,"quickSearch":0,"filterable":1,"ext":"https://gitlab.com/duomv/duo/-/raw/main/Bili/%E5%AD%A6%E4%B9%A0%E5%9B%AD%E5%9C%B0.json"},
+{"key":"美食","name":"Bili美食","type":3,"api":"csp_Bili","searchable":0,"quickSearch":0,"filterable":1,"ext":"https://gitlab.com/duomv/duo/-/raw/main/Bili/%E7%BE%8E%E9%A3%9F%E5%90%88%E9%9B%86.json"},
+{"key":"音樂","name":"Bili音樂","type":3,"api":"csp_Bili","searchable":0,"quickSearch":0,"filterable":1,"ext":"https://gitlab.com/duomv/duo/-/raw/main/Bili/%E9%9F%B3%E4%B9%90%E7%8E%B0%E5%9C%BA.json"},
+{"key":"熱舞","name":"Bili熱舞","type":3,"api":"csp_Bili","searchable":0,"quickSearch":0,"filterable":1,"ext":"https://gitlab.com/duomv/duo/-/raw/main/Bili/%E5%A5%B3%E5%9B%A2%E7%83%AD%E8%88%9E.json"},
 {"key":"空白3","name":"空白3","type": 0,"api": "","playUrl": "","categories": []}
 ],
   "lives": [
@@ -1521,6 +1521,10 @@
     }
   ],
  "parses": [
+   {"name":"解析1","type":1,"url":"http://newjiexi.gotka.top/keyu3.php?url=","ext":{"header":{"User-Agent":"okhttp/4.1.0"}}},
+{"name":"線路1","type":1,"url":"http://newjiexi.gotka.top/keyu3.php?url="},
+{"name":"Pro","type":1,"url":"http://api.vip123kan.vip/?url=","ext":{"flag":["youku","優酷","mgtv","芒果","qq","騰訊","qiyi","愛奇藝","qq","奇藝"]}},
+{"name":"parwix1","type":0,"url":"https://jx.parwix.com:4433/player/?url=","ext":{"flag":["qq","騰訊","qiyi","愛奇藝","奇藝","youku","優酷","mgtv","芒果","letv","樂視","pptv","PPTV","sohu","bilibili","嗶哩嗶哩","嗶哩"]}},
     {
       "name": "預設解析",
       "url": "https://1.api.80tvs.cn/?url="
