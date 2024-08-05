@@ -19,7 +19,6 @@
 {"key":"csp_云解析資源","name":"云解析資源","type":1,"api":"https://api.yparse.com/api/json","searchable":1,"quickSearch":1},
 {"key":"金鷹資源","name":"金鷹資源","type":1,"api":"https://jinyingzy.net/api.php/provide/vod/","searchable":1,"quickSearch":1},
 {"key":"IKUN資源","name":"IKUN資源","type":1,"api":"https://www.ikunzy.com/api.php/provide/vod/","searchable":1,"quickSearch":1},
-{"key":"奧斯卡資源","name":"奧斯卡資源","type":1,"api":"https://aosikazy.com/api.php/provide/vod/?ac=list","searchable":1,"quickSearch":1},
 {"key":"U酷資源","name":"U酷資源","type":1,"api":"https://api.ukuapi.com/api.php/provide/vod/?ac=list","searchable":1,"quickSearch":1},
 {"key":"空白3","name":"空白3","type": 0,"api": "","playUrl": "","categories": []}
 ],
