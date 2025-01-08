@@ -1,7 +1,6 @@
 {
     "spider": ["https://mybss.github.io/mosexcel/custom_spider.jar","https://mybss.github.io/mosexcel/xBPQ.jar","http://cdn.qiaoji8.com/fix241213.jar;md5;5d2689468818731b89ee0c08afd05090"],
-    "sites": [
-      {"key":"39影視","name":"39影視","type":0,"api":"https://www.39kan.com/api.php/provide/vod/at/xml"},
+    "sites": [     
       {"key":"臥龍資源","name":"臥龍資源","type":1,"api":"https://www.wolongzyw.com/api.php/provide/vod/","searchable":1,"quickSearch":1},
       {"key":"無盡資源","name":"無盡資源","type":1,"api":"https://api.wujinapi.net/api.php/provide/vod/","searchable":1,"quickSearch":1},
       {"key":"1080資源庫","name":"1080資源庫(切)","type":1,"api":"https://api.1080zyku.com/inc/api_mac10.php","searchable":0,"quickSearch":1},
@@ -11,14 +10,9 @@
       {"key":"閃電資源","name":"閃電資源(切)","type":1,"api":"http://sdzyapi.com/api.php/provide/vod/","searchable":1,"quickSearch":1},
       {"key":"光速資源","name":"光速資源(切)","type":1,"api":"https://api.guangsuapi.com/api.php/provide/vod/","searchable":1,"quickSearch":1},
       {"key":"天空資源","name":"天空資源(切)","type":1,"api":"https://api.tiankongapi.com/api.php/provide/vod/","searchable":1,"quickSearch":1},
-      {"key":"非凡資源","name":"非凡資源","type":1,"api":"http://ffzy5.tv/api.php/provide/vod/","searchable":1,"quickSearch":1},
-      {"key":"快看資源","name":"快看資源","type":1,"api":" https://kuaikan-api.com/api.php/provide/vod/from/kuaikan","searchable":1,"quickSearch":1},
-      {"key":"飛速資源","name":"飛速資源","type":1,"api":"http://fszy2.com/api.php/provide/vod/","searchable":1,"quickSearch":1},
-      {"key":"華為吧資源","name":"華為吧資源","type":1,"api":"https://huaweiba.live/api.php/provide/vod/","searchable":1,"quickSearch":1},
-      {"key":"csp_云解析資源","name":"云解析資源","type":1,"api":"https://api.yparse.com/api/json","searchable":1,"quickSearch":1},
+      {"key":"非凡資源","name":"非凡資源","type":1,"api":"http://ffzy5.tv/api.php/provide/vod/","searchable":1,"quickSearch":1},      
       {"key":"金鷹資源","name":"金鷹資源","type":1,"api":"https://jinyingzy.net/api.php/provide/vod/","searchable":1,"quickSearch":1},
-      {"key":"IKUN資源","name":"IKUN資源","type":1,"api":"https://www.ikunzy.com/api.php/provide/vod/","searchable":1,"quickSearch":1},
-      {"key":"U酷資源","name":"U酷資源","type":1,"api":"https://api.ukuapi.com/api.php/provide/vod/?ac=list","searchable":1,"quickSearch":1},
+      {"key":"IKUN資源","name":"IKUN資源","type":1,"api":"https://www.ikunzy.com/api.php/provide/vod/","searchable":1,"quickSearch":1},      
       {"key": "南瓜","name": "南瓜┃App","type": 3,"api": "csp_NanGua","searchable": 1,"quickSearch": 1,"playerType": 2,"filterable": 1,"ext": ""},
       {"key": "天天","name": "天天┃App","type": 3,"api": "csp_TTian","playerType": 1,"ext": "baHR0cDovL3R0LnlzZHFqcy5jbg=="},
       {"key": "热播","name": "热播┃App","type": 3,"api": "csp_TTian","playerType": 1,"ext": "caHR0cDovL3YucmJvdHYuY24="},
@@ -36,8 +30,7 @@
       {"key": "快看","name": "快看┃直连","type": 3,"api": "csp_Kuaikan","searchable": 1,"playerType": 1,"quickSearch": 1,"filterable": 1},
       {"key": "360_spider","name": "360┃解析","api": "csp_SP360","type": 3,"filterable": 1,"quickSearch": 1,"searchable": 1,"playerType": 2,"ext": ""},
       {"key": "csp_Auete","name": "Auete┃无搜索","type": 3,"api": "csp_Auete","searchable": 1,"playerType": 1,"quickSearch": 1,"filterable": 1},
-      {"key": "NoSearch_csp_BBB","name": "哔哩哔哩","type": 3,"api": "csp_Bili","searchable": 1,"quickSearch": 0,"filterable": 1,"ext": "naHR0cHM6Ly93d3cucWlhb2ppOC5jb20vdHZib3gvYmlsaS5qc29u"},
-      {"key":"空白3","name":"空白3","type": 0,"api": "","playUrl": "","categories": []}
+      {"key": "NoSearch_csp_BBB","name": "哔哩哔哩","type": 3,"api": "csp_Bili","searchable": 1,"quickSearch": 0,"filterable": 1,"ext": "naHR0cHM6Ly93d3cucWlhb2ppOC5jb20vdHZib3gvYmlsaS5qc29u"}
     ],
       "lives": [
         {
