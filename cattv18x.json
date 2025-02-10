@@ -8,13 +8,7 @@
       "api": "https://api.yikanapi.com/api.php/provide/vod/",
       "searchable": 1,
       "quickSearch": 1
-    },
-    {
-      "key": "BT天堂",
-      "name": "BT天堂+",
-      "type": 0,
-      "api": "http://bttcj.com/inc/sapi.php"
-    },
+    },    
     {
       "key": "ms4nii",
       "name": "美少女资源(已修复)",
@@ -47,15 +41,6 @@
       "name": "白嫖资源(已修复)",
       "type": 0,
       "api": "https://www.kxgav.com/api/xml.php",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-    {
-      "key": "afasu",
-      "name": "小湿妹资源(已修复)",
-      "type": 0,
-      "api": "https://www.afasu.com/api/xml.php",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
@@ -119,33 +104,12 @@
       "type": 1,
       "api": "https://api.maozyapi.com/inc/apijson_vod.php",
       "searchable": 1
-    },
-    {
-      "key": "kkzy.me",
-      "name": "KK写真资源",
-      "type": 1,
-      "api": "https://kkzy.me/api.php/provide/vod/",
-      "searchable": 1
-    },
+    },    
     {
       "key": "lbapi9.com",
       "name": "乐播资源",
       "type": 1,
       "api": "https://lbapi9.com/api.php/provide/vod/",
-      "searchable": 1
-    },
-    {
-      "key": "apittzy.com",
-      "name": "探探资源",
-      "type": 1,
-      "api": "https://apittzy.com/api.php/provide/vod/",
-      "searchable": 1
-    },
-    {
-      "key": "hghhh.com",
-      "name": "成人52",
-      "type": 1,
-      "api": "https://hghhh.com/api.php/provide/vod/",
       "searchable": 1
     },
     {
