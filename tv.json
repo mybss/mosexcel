@@ -1,7 +1,7 @@
 {
     "spider": ["https://mybss.github.io/mosexcel/custom_spider.jar","https://mybss.github.io/mosexcel/xBPQ.jar","http://cdn.qiaoji8.com/fix241213.jar;md5;5d2689468818731b89ee0c08afd05090"],
     "sites": [
-    {"key":"無盡資源","name":"無盡資源","type":1,"api":"https://api.wujinapi.net/api.php/provide/vod/","searchable":1,"quickSearch":1,"categories": ["国产剧","台湾剧","韩国剧","日本剧","欧美剧","香港剧","泰国剧","海外剧","大陆综艺","港台综艺","日韩综艺","欧美综艺","动作片","喜剧片","爱情片","科幻片","恐怖片","剧情片","战争片","记录片","国产动漫","日韩动漫","欧美动漫","港台动漫","海外动漫"]}
+    {"key":"無盡資源","name":"無盡資源","type":1,"api":"https://api.wujinapi.com/api.php/provide/vod/","searchable":1,"quickSearch":1,"categories": ["国产剧","台湾剧","韩国剧","日本剧","欧美剧","香港剧","泰国剧","海外剧","大陆综艺","港台综艺","日韩综艺","欧美综艺","动作片","喜剧片","爱情片","科幻片","恐怖片","剧情片","战争片","记录片","国产动漫","日韩动漫","欧美动漫","港台动漫","海外动漫"]}
     
     ],
       "lives": [
