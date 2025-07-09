@@ -14,9 +14,13 @@
       {"key":"閃電資源","name":"閃電資源(切)","type":1,"api":"http://sdzyapi.com/api.php/provide/vod/","searchable":1,"quickSearch":1},
       {"key":"光速資源","name":"光速資源(切)","type":1,"api":"https://api.guangsuapi.com/api.php/provide/vod/","searchable":1,"quickSearch":1},
       {"key":"天空資源","name":"天空資源(切)","type":1,"api":"https://api.tiankongapi.com/api.php/provide/vod/","searchable":1,"quickSearch":1},
-      {"key":"非凡資源","name":"非凡資源","type":1,"api":"http://ffzy5.tv/api.php/provide/vod/","searchable":1,"quickSearch":1},      
-      {"key":"金鷹資源","name":"金鷹資源","type":1,"api":"https://jinyingzy.net/api.php/provide/vod/","searchable":1,"quickSearch":1},
-      {"key":"IKUN資源","name":"IKUN資源","type":1,"api":"https://www.ikunzy.com/api.php/provide/vod/","searchable":1,"quickSearch":1}      
+      {"key":"非凡資源","name":"非凡資源","type":1,"api":"https://svip.ffzyplay.com/?url=","searchable":1,"quickSearch":1}, 
+      {"key":"暴風資源","name":"暴風資源","type":1,"api":"https://vip.vipuuvip.com/?url=","searchable":1,"quickSearch":1},
+      {"key":"金鷹資源","name":"金鷹資源","type":1,"api":"https://jyzyapi.com/provide/vod/from/jinyingm3u8/at/json","searchable":1,"quickSearch":1},
+      {"key":"奧斯卡資源站","name":"奧斯卡資源站","type":1,"api":"https://aosikazy.com/api.php/provide/vod/?ac=list","searchable":1,"quickSearch":1},  
+      {"key":"雲解析資源網","name":"雲解析資源網","type":1,"api":"https://api.yparse.com/api/json","searchable":1,"quickSearch":1},       
+      {"key":"U酷資源網","name":"U酷資源網","type":1,"api":"https://api.ukuapi88.com/api.php/provide/vod/?ac=list","searchable":1,"quickSearch":1}, 
+      {"key":"IKUN資源","name":"IKUN資源","type":1,"api":"https://ikunzyapi.com/api.php/provide/vod/at/json","searchable":1,"quickSearch":1}      
     ],
       "lives": [
         {
