@@ -1,5 +1,5 @@
 {
-    "spider": ["https://mybss.github.io/mosexcel/custom_spider.jar","https://mybss.github.io/mosexcel/xBPQ.jar"],
+    "spider": ["https://mybss.github.io/mosexcel/custom_spider.jar"],
     "sites": [     
       {"key":"臥龍資源","name":"臥龍資源","type":1,"api":"https://www.wolongzyw.com/api.php/provide/vod/","searchable":1,"quickSearch":1},
       {"key":"臥龍資源2","name":"臥龍資源2","type":1,"api":"https://collect.wolongzy.cc/api.php/provide/vod/at/xml/?ac=list","searchable":1,"quickSearch":1},
