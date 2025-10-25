@@ -11,6 +11,15 @@
       "filterable": 1
     },
     {
+      "key": "CK",
+      "name": "CK資源站",
+      "type": 0,
+      "api": "https://ckzy.me/api.php/provide/vod/?ac=list",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
       "key": "KxrbspE",
       "name": "淫水机资源(已修复)",
       "type": 0,
