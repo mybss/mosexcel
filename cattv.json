@@ -9,7 +9,7 @@
       {"key":"量子資源","name":"量子資源(切)","type":1,"api":"http://cj.lziapi.com/api.php/provide/vod/","searchable":1,"quickSearch":1},
       {"key":"紅牛資源","name":"紅牛資源(切)","type":1,"api":"https://www.hongniuzy2.com/api.php/provide/vod/at/xml/","searchable":1,"quickSearch":1},
       {"key":"閃電資源","name":"閃電資源(切)","type":1,"api":"http://sdzyapi.com/api.php/provide/vod/","searchable":1,"quickSearch":1},
-      {"key":"光速資源","name":"光速資源(切)","type":1,"api":"https://api.guangsuapi.com/api.php/provide/vod/","searchable":1,"quickSearch":1},
+      {"key":"光速資源","name":"光速資源(切)","type":1,"api":"https://api.guangsuapi.com/api.php/provide/vod/at/xml/","searchable":1,"quickSearch":1},
       {"key":"金鷹資源","name":"金鷹資源","type":1,"api":"https://jyzyapi.com/provide/vod/from/jinyingm3u8/at/json","searchable":1,"quickSearch":1},
       {"key":"U酷資源網","name":"U酷資源網","type":1,"api":"https://api.ukuapi88.com/api.php/provide/vod/?ac=list","searchable":1,"quickSearch":1},
       {"key":"IKUN資源","name":"IKUN資源","type":1,"api":"https://ikunzyapi.com/api.php/provide/vod/at/xml","searchable":1,"quickSearch":1},
@@ -22,6 +22,7 @@
       {"key":"天涯影視資源","name":"天涯影視資源","type":1,"api":"https://tyyszyapi.com/api.php/provide/vod/at/xml/?ac=list","searchable":1,"quickSearch":1},
       {"key":"臥龍資源2","name":"臥龍資源2","type":1,"api":"https://collect.wolongzy.cc/api.php/provide/vod/?ac=list","searchable":1,"quickSearch":1},
       {"key":"茅台資源","name":"茅台資源","type":1,"api":"https://caiji.maotaizy.cc/api.php/provide/vod/at/josn/","searchable":1,"quickSearch":1},
+      {"key":"虎牙資源","name":"虎牙資源","type":1,"api":"https://www.huyaapi.com/api.php/provide/vod/at/json","searchable":1,"quickSearch":1},
       {"key":"最大資源網","name":"最大資源網","type":1,"api":" https://api.zuidapi.com/api.php/provide/vod/?ac=list","searchable":1,"quickSearch":1}
     ],
       "lives": [
