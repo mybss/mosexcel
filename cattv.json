@@ -21,6 +21,10 @@
       {"key":"臥龍資源2","name":"臥龍資源2","type":1,"api":"https://collect.wolongzy.cc/api.php/provide/vod/?ac=list","searchable":1,"quickSearch":1},
       {"key":"茅台資源","name":"茅台資源","type":1,"api":"https://caiji.maotaizy.cc/api.php/provide/vod/at/josn/","searchable":1,"quickSearch":1},
       {"key":"虎牙資源","name":"虎牙資源","type":1,"api":"https://www.huyaapi.com/api.php/provide/vod/at/json","searchable":1,"quickSearch":1},
+      {"key":"豆瓣資源","name":"豆瓣資源","type":1,"api":"https://caiji.dbzy5.com/api.php/provide/vod/at/josn/","searchable":1,"quickSearch":1},
+      {"key":"索尼資源","name":"索尼資源","type":1,"api":"https://suoniapi.com/api.php/provide/vod/?ac=list","searchable":1,"quickSearch":1},
+      {"key":"新浪資源","name":"新浪資源","type":1,"api":"https://api.xinlangapi.com/xinlangapi.php/provide/vod/","searchable":1,"quickSearch":1},
+      {"key":"快車資源","name":"快車資源","type":1,"api":"https://caiji.kczyapi.com/api.php/provide/vod/?ac=list","searchable":1,"quickSearch":1},
       {"key":"最大資源網","name":"最大資源網","type":1,"api":" https://api.zuidapi.com/api.php/provide/vod/?ac=list","searchable":1,"quickSearch":1}
     ],
       "lives": [
