@@ -1,11 +1,11 @@
 {
-//定義jar檔
+"//":"定義jar檔",
 "spider": "https://mybss.github.io/mosexcel/custom_spider.jar?raw=true;md5;d3d868e8b8ef5ed9ba0051e745b08c0af1b65b67",
 
-//定義桌面
+"//":"定義桌面",
 "wallpaper": "",
 
-//定義首頁播放來源,searchable:搜尋開關 0:關閉 1:啟用,filterable:首頁可選 0:否 1:是,playerType:播放器類型 0:系統 1:IJK 2:EXO,採集介面類型 0:xml 1:json(默認蘋果CMS資源) 2:爬蟲源 3:jar(api開頭為csp_) 4:remote
+"//":"定義首頁播放來源,searchable:搜尋開關 0:關閉 1:啟用,filterable:首頁可選 0:否 1:是,playerType:播放器類型 0:系統 1:IJK 2:EXO,採集介面類型 0:xml 1:json(默認蘋果CMS資源) 2:爬蟲源 3:jar(api開頭為csp_) 4:remote",
 "sites": [     
 {"key":"臥龍資源","name":"臥龍資源","type":1,"api":"https://www.wolongzyw.com/api.php/provide/vod/","searchable":1,"quickSearch":1,"filterable":1},
 {"key":"魔都資源網","name":"魔都資源網","type":1,"api":"https://www.mdzyapi.com/api.php/provide/vod/?ac=list","searchable":1,"quickSearch":1,"filterable":1},
@@ -33,7 +33,7 @@
 {"key":"最大資源網","name":"最大資源網","type":1,"api":" https://api.zuidapi.com/api.php/provide/vod/?ac=list","searchable":1,"quickSearch":1,"filterable":1}
 ],
 
-//定義直播源,群組 group,頻道 channels,直播名 name,類型 type,地址 url,播放類型 playerType,ua,epg,logo
+"//":"定義直播源,群組 group,頻道 channels,直播名 name,類型 type,地址 url,播放類型 playerType,ua,epg,logo",
 "lives": [{
 "group": "台灣",
 "channels": [
@@ -117,7 +117,7 @@
 {"name": "ROCK Action","urls": ["http://aktv.top/AKTV/live/aktv/rockaction/AKTV.m3u8"],"ua":"okhttp"}           
 ]}],
 
-//解析類型 type 0:嗅探,自帶播放器 1:解析,返回直鏈
+"//":"解析類型 type 0:嗅探,自帶播放器 1:解析,返回直鏈",
 "parses": [
 {"name":"解析1","type":1,"url":"http://newjiexi.gotka.top/keyu3.php?url=","ext":{"header":{"User-Agent":"okhttp/4.1.0"}}},
 {"name":"線路1","type":1,"url":"http://newjiexi.gotka.top/keyu3.php?url="},
@@ -148,7 +148,7 @@
 {"name": "星影相隨1","type": 1,"url": "https://xt.gbxy.net.cn/api/?key=7gAmfK5typSVsg2Qnr&url="},
 {"name": "愛影視","type": 1,"url": "http://14.17.115.200:520/json.php?id=6e5LaYyU5JLs9aRawyGKwPkH7ZFr701z&url="},
 {"name": "追劇吧1","type": 1,"url": "http://newjiexi.gotto.top/yun_apib.php/?url="},
-{"name": 優視影視","type": 1,"url": "http://ccc.ysys.asia/jx/?id=2&url="},
+{"name": "優視影視","type": 1,"url": "http://ccc.ysys.asia/jx/?id=2&url="},
 {"name": "黃河影視","type": 1,"url": "http://jx.ledu8.cn/api/?key=P8QSgO61p1MpHV2ALn&url="},
 {"name": "(無名)1","type": 1,"url": "http://vipjh.chunbaotaiji.com/?url="},
 {"name": "麻瓜視頻1","type": 1,"url": "https://jhjx.ptygx.com/xttyjx.php/?url="},
@@ -174,11 +174,11 @@
 {"name": "雪人影視","type": 1,"url": "https://svip.renrenmi.cc:2222/api/?key=S77lACKG9VTwNq5Upv&url="},
 {"name": "藍光解析","url": "https://api.steak517.top/?url="},
 {"name": "千億超清","url": "https://www.qianyicp.com/?url="},
-{"name": 純淨解析","url": "https://z1.m1907.cn/?jx="},
-{"name": "name": "高速介面1","url": "https://jsap.attakids.com/?url="},
-{"name": "name": "B站解析1","url": "https://vip.parwix.com:4433/player/?url="},
-{"name": "name": "B站解析2","url": "https://www.cuan.la/m3u8.php?url="},
-{"name": "name": "蝦米","url": "https://jx.xmflv.com/?url="},
+{"name": "純淨解析","url": "https://z1.m1907.cn/?jx="},
+{"name": "高速介面1","url": "https://jsap.attakids.com/?url="},
+{"name": "B站解析1","url": "https://vip.parwix.com:4433/player/?url="},
+{"name": "B站解析2","url": "https://www.cuan.la/m3u8.php?url="},
+{"name": "蝦米","url": "https://jx.xmflv.com/?url="},
         {
           "name": "Ckplayer",
           "url": "https://www.ckplayer.vip/jiexi/?url="
@@ -1263,12 +1263,12 @@
 "header": {"User-Agent": "okhttp/4.9.1"}
 }}],
 
-//播放器標識
+"//":"播放器標識",
 "flags": ["youku","qq","iqiyi","qiyi","letv","sohu","tudou","pptv","mgtv","wasu","bilibili","QQ","PPTV","m1905","seven","m78"],
 
-//解碼器
+"//":"解碼器",
 "ijk": [{"group": "軟解碼","options": [
-{"category": 4,name": "opensles","value": "0"},
+{"category": 4,"name": "opensles","value": "0"},
 {"category": 4,"name": "overlay-format","value": "842225234"},
 {"category": 4,"name": "framedrop","value": "1"},
 {"category": 4,"name": "soundtouch","value": "1"},
@@ -1286,11 +1286,11 @@
 {"category": 1,"name": "dns_cache_timeout","value": "600000000"}]},
 {"group": "硬解碼","options": [
 {"category": 4,"name": "opensles","value": "0"},
-{"category": 4,name": "overlay-format","value": "842225234"},
+{"category": 4,"name": "overlay-format","value": "842225234"},
 {"category": 4,"name": "framedrop","value": "1"},
 {"category": 4,"name": "soundtouch","value": "1"},
-{"category": 4,"name": "start-on-prepared",value": "1"},
-{"category": 1,"name": "http-detect-range-support","value": "0",
+{"category": 4,"name": "start-on-prepared","value": "1"},
+{"category": 1,"name": "http-detect-range-support","value": "0"},
 {"category": 1,"name": "fflags","value": "fastseek"},
 {"category": 2,"name": "skip_loop_filter","value": "48"},
 {"category": 4,"name": "reconnect","value": "1"},
@@ -1302,7 +1302,7 @@
 {"category": 4,"name": "mediacodec-hevc","value": "1"},
 {"category": 1,"name": "dns_cache_timeout","value": "600000000"}]}],
 
-//廣告
+"//":"廣告",
 "ads": [
 "mimg.0c1q0l.cn",
 "www.googletagmanager.com",
