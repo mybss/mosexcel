@@ -1,5 +1,5 @@
 {
-  "spider": ["./custom_spider.jar?raw=true","https://mybss.github.io/mosexcel/xBPQ.jar","http://cdn.qiaoji8.com/fix241213.jar"],
+  "spider": ["https://mybss.github.io/mosexcel/custom_spider.jar?raw=true;md5;c6ed6bc8285f0aca90e7cb3abf7f9caa","https://mybss.github.io/mosexcel/xBPQ.jar","http://cdn.qiaoji8.com/fix241213.jar"],
   "sites": [        
     {
       "key": "ms4nii",

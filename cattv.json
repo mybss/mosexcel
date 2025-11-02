@@ -1,5 +1,5 @@
 {
-    "spider": ["./custom_spider.jar?raw=true"],
+    "spider": ["https://mybss.github.io/mosexcel/custom_spider.jar?raw=true;md5;c6ed6bc8285f0aca90e7cb3abf7f9caa"],
     "sites": [     
       {"key":"臥龍資源","name":"臥龍資源","type":1,"api":"https://www.wolongzyw.com/api.php/provide/vod/","searchable":1,"quickSearch":1},
       {"key":"魔都資源網","name":"魔都資源網","type":1,"api":"https://www.mdzyapi.com/api.php/provide/vod/?ac=list","searchable":1,"quickSearch":1},
