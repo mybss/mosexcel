@@ -1,0 +1,93 @@
+{
+  "spider": "https://lemetu.com/custom_spider.jar", //自己的爬蟲檔案後台地址
+  "wallpaper": "https://lemetu.com/壁紙.png",  //前端背景的圖片地址
+  "sites": [
+    {
+      "key": "lemetu", //可默認也可自訂
+      "name": "樂美兔部落格", //前端顯示的資源名稱自訂
+      "type": 3, //Type 0-xml 1-json 2-爬蟲源 3-自訂爬蟲 4-伺服器爬蟲
+      "api": "csp_AppYsV2", //默認走爬蟲線路都是這個記號不可修改
+      "searchable": 1,  //可搜尋? 0-不可以 1-可以
+      "quickSearch": 1, //可快速搜尋? 0-不可以 1-可以
+      "filterable": 1,  //可篩選? 0-不可以 1-可以
+      "ext": "https://lemetu.com/api.php/app/" //爬蟲模式的對接地址
+    }, //注意增加資源要在逗號之後
+    {
+      "key": "csp_lemetu",  //自訂英文標籤必須帶上前綴csp_
+      "name": "樂美兔部落格", //前端顯示的資源名稱自訂
+      "type": 1, //Type 0-xml 1-json 2-爬蟲源 3-自訂爬蟲 4-伺服器爬蟲
+      "api": "https://lemetu.com/api.php/provide/vod/?ac=list",//默認蘋果CMS資源採集站的地址
+      "playUrl": "json:https://lemetu.com/?url=", //資源指定JSON解析介面，一般不填寫
+      "searchable": 1,  ////可搜尋? 0-不可以 1-可以
+      "quickSearch": 1, //可篩選? 0-不可以 1-可以
+      "filterable": 1,  //可篩選? 0-不可以 1-可以
+      "categories": [ "電影","劇集","綜藝","動漫","短劇"] //可以在前端顯示的分類 注意結尾不要帶逗號
+    },
+    //這個地方可以繼續加入資源，將你從別處複製過來的程式碼貼上到這裡即可
+    {
+     "key": "push_agent",
+     "name": "前端自訂播放功能", //前端自訂播放連結功能
+     "type": 3,
+     "api": "csp_Push",
+     "searchable": 0,
+     "quickSearch": 0,
+     "changeable": 0,
+     "ext": "http://127.0.0.1:9978/file/MeowTV/token.txt+4k|auto|fhd"
+    } //注意結尾不要帶逗號
+  ],
+  "lives": [
+        {
+            "name": "live", //名字自訂
+            "type": 0,
+            "url": "http://lemetu.com/zhibo.txt", //這裡填寫直播源的地址（注意要txt結尾的連結）
+            "playerType": 1,
+            "ua": "okhttp/3.15",
+            "epg": "http://epg.112114.xyz/?ch={name}&amp;date={date}",
+            "logo": "https://epg.112114.xyz/logo/{name}.png"
+        }
+    ],
+  "flags":["lzm3u8","youku","qq","iqiyi","qiyi","letv","sohu","tudou","mgtv","bilibili"], //加入播放器標識用逗號分割
+
+  "parses":[
+            {"name": "聚合","type": 3,"url": "Demo"}, //類型
+            {"name": "輪詢","type": 2,"url": "Sequence"}, //類型
+            {"name": "1號線","type": 0,"url": "https://json解析地址/?url="}, //支援json和普通介面同時使用
+            {"name": "2號線","type": 0,"url": "https://普通解析地址/?url="}, //解析介面可以無限加入
+            {"name": "3號線","type": 0,"url": "https://無限解析地址/?url="}  //注意結尾不要帶逗號
+],
+"ijk": [{"group": "軟解碼","options": [
+{"category": 4,"name": "opensles","value": "0"}, 
+{"category": 4,"name": "overlay-format","value": "842225234"}, 
+{"category": 4,"name": "framedrop","value": "1"}, 
+{"category": 4,"name": "soundtouch","value": "1"}, 
+{"category": 4,"name": "start-on-prepared","value": "1"}, 
+{"category": 1,"name": "http-detect-range-support","value": "0"}, 
+{"category": 1,"name": "fflags","value": "fastseek"}, 
+{"category": 2,"name": "skip_loop_filter","value": "48"}, 
+{"category": 4,"name": "reconnect","value": "1"}, 
+{"category": 4,"name": "max-buffer-size","value": "5242880"}, 
+{"category": 4,"name": "enable-accurate-seek","value": "0"}, 
+{"category": 4,"name": "mediacodec","value": "0"}, 
+{"category": 4,"name": "mediacodec-auto-rotate","value": "0"}, 
+{"category": 4,"name": "mediacodec-handle-resolution-change","value": "0"}, 
+{"category": 4,"name": "mediacodec-hevc","value": "0"}, 
+{"category": 1,"name": "dns_cache_timeout","value": "600000000"}]}, 
+{"group": "硬解碼","options": [
+{"category": 4,"name": "opensles","value": "0"}, 
+{"category": 4,"name": "overlay-format","value": "842225234"}, 
+{"category": 4,"name": "framedrop","value": "1"}, 
+{"category": 4,"name": "soundtouch","value": "1"}, 
+{"category": 4,"name": "start-on-prepared","value": "1"}, 
+{"category": 1,"name": "http-detect-range-support","value": "0"}, 
+{"category": 1,"name": "fflags","value": "fastseek"}, 
+{"category": 2,"name": "skip_loop_filter","value": "48"}, 
+{"category": 4,"name": "reconnect","value": "1"}, 
+{"category": 4,"name": "max-buffer-size","value": "5242880"}, 
+{"category": 4,"name": "enable-accurate-seek","value": "0"}, 
+{"category": 4,"name": "mediacodec","value": "1"},
+{"category": 4,"name": "mediacodec-auto-rotate","value": "1"}, 
+{"category": 4,"name": "mediacodec-handle-resolution-change","value": "1"}, 
+{"category": 4,"name": "mediacodec-hevc","value": "1"}, 
+{"category": 1,"name": "dns_cache_timeout","value": "600000000"}]}], 
+"ads": ["遮蔽廣告地址1","遮蔽廣告地址2","遮蔽廣告地址13"]
+}...
