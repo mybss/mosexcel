@@ -7,7 +7,7 @@
 
 "//":"定義首頁播放來源,searchable:搜尋開關 0:關閉 1:啟用,filterable:首頁可選 0:否 1:是,playerType:播放器類型 0:系統 1:IJK 2:EXO,採集介面類型 0:xml 1:json(默認蘋果CMS資源) 2:爬蟲源 3:jar(api開頭為csp_) 4:remote",
 "sites": [     
-{"key":"臥龍資源","name":"臥龍資源","type":1,"api":"https://www.wolongzyw.com/api.php/provide/vod/","searchable":1,"quickSearch":1,"filterable":1},
+{"key":"臥龍資源","name":"臥龍資源","type":1,"api":"https://www.wolongzyw.com/api.php/provide/vod/","searchable":1,"quickSearch":1,"filterable":1,"categories": ["国产剧","台湾剧","韩国剧","日本剧","欧美剧","香港剧","泰国剧","海外剧","动作片","喜剧片","爱情片","科幻片","剧情片","战争片","纪录片","动画片","大陆综艺","港台综艺","韩国综艺","欧美综艺","国产动漫","日本动漫","欧美动漫","短剧","篮球","足球"]},
 {"key":"魔都資源網","name":"魔都資源網","type":1,"api":"https://www.mdzyapi.com/api.php/provide/vod/?ac=list","searchable":1,"quickSearch":1,"filterable":1},
 {"key":"無盡資源","name":"無盡資源","type":1,"api":"https://api.wujinapi.com/api.php/provide/vod/","searchable":1,"quickSearch":1,"filterable":1,"categories": ["国产剧","台湾剧","韩国剧","日本剧","美国剧","香港剧","泰剧","海外剧","Netflix自制剧","大陆综艺","港台综艺","日韩综艺","欧美综艺","演唱会","动作片","喜剧片","爱情片","科幻片","剧情片","战争片","纪录片","Netflix电影","动画片","国产动漫","日韩动漫","欧美动漫","港台动漫","海外动漫","有声动漫","篮球","足球","悬疑片","恐怖片","犯罪片","女频恋爱","反转爽剧","脑洞悬疑","年代穿越","古装仙侠","现代都市","擦边短剧","港台三级","韩国伦理","西方伦理","日本伦理","写真热舞"]},
 {"key":"無盡資源2","name":"無盡資源2","type":1,"api":"https://wjzyapi.com/api.php/provide/vod/?ac=list","searchable":1,"quickSearch":1,"filterable":1},
