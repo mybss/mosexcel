@@ -1,7 +1,13 @@
 {
-    "spider": "https://mybss.github.io/mosexcel/custom_spider.jar?raw=true;md5;d3d868e8b8ef5ed9ba0051e745b08c0af1b65b67",
-    "sites": [
-    {"key":"無盡資源","name":"無盡資源","type":1,"api":"https://api.wujinapi.com/api.php/provide/vod/","searchable":1,"quickSearch":1,"filterable":1,"categories": ["国产剧","台湾剧","韩国剧","日本剧","美国剧","香港剧","泰剧","海外剧","Netflix自制剧","大陆综艺","港台综艺","日韩综艺","欧美综艺","演唱会","动作片","喜剧片","爱情片","科幻片","剧情片","战争片","纪录片","Netflix电影","动画片","国产动漫","日韩动漫","欧美动漫","港台动漫","海外动漫","悬疑片","恐怖片","犯罪片"]}
+"//":"定義jar檔",
+"spider": "https://mybss.github.io/mosexcel/custom_spider.jar?raw=true;md5;d3d868e8b8ef5ed9ba0051e745b08c0af1b65b67",
+
+"//":"定義桌面",
+"wallpaper": "",
+
+"//":"定義首頁播放來源,searchable:搜尋開關 0:關閉 1:啟用,filterable:首頁可選 0:否 1:是,playerType:播放器類型 0:系統 1:IJK 2:EXO,採集介面類型 0:xml 1:json(默認蘋果CMS資源) 2:爬蟲源 3:jar(api開頭為csp_) 4:remote",
+"sites": [
+{"key":"無盡資源","name":"無盡資源","type":1,"api":"https://api.wujinapi.me/api.php/provide/vod/?ac=list","searchable":1,"quickSearch":1,"filterable":1,"categories": ["国产剧","台湾剧","韩国剧","日本剧","美国剧","海外剧","Netflix自制剧","大陆综艺","港台综艺","日韩综艺","动作片","喜剧片","爱情片","科幻片","剧情片","战争片","纪录片","Netflix电影","动画片","国产动漫","日韩动漫","欧美动漫","海外动漫","悬疑片","恐怖片","犯罪片"]}
     ],
       "lives": [
         {
