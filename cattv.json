@@ -30,7 +30,7 @@
 {"key":"快車資源","name":"快車資源","type":1,"api":"https://caiji.kuaichezy.org/api.php/provide/vod/?ac=list","searchable":1,"quickSearch":1,"filterable":1,"categories": ["国产剧","台剧","韩剧","日剧","欧美剧","港剧","泰剧","海外剧","Netflix自制剧","大陆综艺","港台综艺","日韩综艺","欧美综艺","动作片","喜剧片","爱情片","科幻片","剧情片","战争片","纪录片","动画片","4K电影","Netflix电影","演唱会","国产动漫","日韩动漫","欧美动漫","港台动漫","海外动漫","有声动漫","古装仙侠","现代都市","年代穿越","女频恋爱","反转爽剧","脑洞悬疑","擦边短剧","漫剧","港台三级","韩国伦理","西方伦理","日本伦理","写真热舞"]},
 {"key":"雲解析資源網","name":"雲解析資源網","type":1,"api":"https://api.yparse.com/api/json","searchable":1,"quickSearch":1,"filterable":1},
 {"key":"優質資源庫","name":"優質資源庫","type":1,"api":"https://api.yyzy-tv.vip/inc/api_mac10_all.php","searchable":1,"quickSearch":1,"filterable":1,"categories": ["国产剧","台湾剧","韩国剧","日本剧","欧美剧","香港剧","泰国剧","海外剧","大陆综艺","港台综艺","日韩综艺","欧美综艺","动作片","喜剧片","爱情片","科幻片","剧情片","战争片","纪录片","动画片","国产动漫","日韩动漫","欧美动漫","港台动漫","海外动漫","短剧大全","伦理片","福利"]},
-{"key":"奧斯卡資源(18x)","name":"奧斯卡資源(18x)","type":1,"api":"https://aosikazy.com/api.php/provide/vod/?ac=list","searchable":1,"quickSearch":1,"filterable":1,"categories": ["中文本幕","日本有码","日本无码","女优明星","制服诱惑","网曝黑料","网红头条","萝莉少女","极品媚黑","女同性恋","SM调教","国产主播","国产视频","国产传媒","国产主播","明星换脸","抖阴视频","欧美无码","强奸乱伦","明星换脸","韩国主播","伦理三级","激情动漫"]},
+{"key":"奧斯卡資源(18x)","name":"奧斯卡資源(18x)","type":1,"api":"https://aosikazy1.com/api.php/provide/vod/?ac=list","searchable":1,"quickSearch":1,"filterable":1},
 {"key":"CK資源(18x)","name":"CK資源(18x)","type":1,"api":"https://ckzy.me/api.php/provide/vod/?ac=list","searchable":1,"quickSearch":1,"filterable":1,"categories": ["伦理片"]}
 ],
 
